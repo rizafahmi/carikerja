@@ -18,4 +18,8 @@
 <main>
   <Nav {segment} />
   <slot />
+  <hr />
+  Dipersembahkan oleh
+  <a href="https://deeptech.id" target="_blank">DeepTech Foundation</a>
+  .
 </main>

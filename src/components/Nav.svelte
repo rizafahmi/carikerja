@@ -19,6 +19,13 @@
           Tentang
         </a>
       </li>
+      <li>
+        <a
+          aria-current={segment === 'hiring' ? 'page' : undefined}
+          href="hiring">
+          Hiring?
+        </a>
+      </li>
 
     </ul>
 
