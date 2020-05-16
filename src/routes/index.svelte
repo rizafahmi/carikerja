@@ -37,9 +37,12 @@
   <hr />
 
   <p>
-    Ingin menambahkan seseorang kedalam list? Clone repositori ini dan tambahkan
-    data baru di
-    <code>data/people.js</code>
+    Ingin menambahkan seseorang kedalam list?
+    <a href="https://github.com/rizafahmi/phkid" target="_blank">
+      Clone repositori ini
+    </a>
+    dan tambahkan data baru di
+    <code>src/data/people.js</code>
     .
   </p>
 </div>

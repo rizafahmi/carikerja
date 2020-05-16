@@ -21,5 +21,7 @@
   <hr />
   Dipersembahkan oleh
   <a href="https://deeptech.id" target="_blank">DeepTech Foundation</a>
+  . Kode sumber tersedia di
+  <a href="https://github.com/rizafahmi/phkid" target="_blank">GitHub</a>
   .
 </main>
