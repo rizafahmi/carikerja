@@ -1,5 +1,7 @@
 # PHK.id
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 Daftar developer keren yang terpaksa di PHK karena dampak pandemi COVID-19.
 
 Yang diperlukan (versi minimum): [Node.js](https://nodejs.org) versi 10.
