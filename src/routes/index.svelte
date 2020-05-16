@@ -1,5 +1,7 @@
 <script>
   import people from '../data/people.js';
+
+  const sortedPeople = people.sort((a, b) => a.name > b.name);
 </script>
 
 <style>
@@ -18,7 +20,7 @@
 <h4>Daftar developer keren yang terkena dampak COVID-19.</h4>
 
 <div>
-  {#each people as p}
+  {#each sortedPeople as p}
     <div class="terminal-card">
       <header>{p.name}</header>
       <ul>
@@ -32,4 +34,12 @@
       </ul>
     </div>
   {/each}
+  <hr />
+
+  <p>
+    Ingin menambahkan seseorang kedalam list? Clone repositori ini dan tambahkan
+    data baru di
+    <code>data/people.js</code>
+    .
+  </p>
 </div>
