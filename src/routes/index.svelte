@@ -1,46 +1,35 @@
+<script>
+  import people from '../data/people.js';
+</script>
+
 <style>
-	h1, figure, p {
-		text-align: center;
-		margin: 0 auto;
-	}
-
-	h1 {
-		font-size: 2.8em;
-		text-transform: uppercase;
-		font-weight: 700;
-		margin: 0 0 0.5em 0;
-	}
-
-	figure {
-		margin: 0 0 1em 0;
-	}
-
-	img {
-		width: 100%;
-		max-width: 400px;
-		margin: 0 0 1em 0;
-	}
-
-	p {
-		margin: 1em auto;
-	}
-
-	@media (min-width: 480px) {
-		h1 {
-			font-size: 4em;
-		}
-	}
+  .terminal-card {
+    margin: 1em;
+  }
+  ul {
+    margin-left: 1em;
+  }
 </style>
 
 <svelte:head>
-	<title>Sapper project template</title>
+  <title>PHK.id - Situs daftar developer yang terkena dampak COVID-19</title>
 </svelte:head>
 
-<h1>Great success!</h1>
+<h4>Daftar developer keren yang terkena dampak COVID-19.</h4>
 
-<figure>
-	<img alt='Success Kid' src='successkid.jpg'>
-	<figcaption>Have fun with Sapper!</figcaption>
-</figure>
-
-<p><strong>Try editing this file (src/routes/index.svelte) to test live reloading.</strong></p>
+<div>
+  {#each people as p}
+    <div class="terminal-card">
+      <header>{p.name}</header>
+      <ul>
+        <li>⏲️ {p.status}</li>
+        <li>💻 {p.role}</li>
+        <li>📍 {p.location}</li>
+        <li>
+          <span>🔗</span>
+          <a href={p.social_media} target="_blank">Linkedin</a>
+        </li>
+      </ul>
+    </div>
+  {/each}
+</div>
