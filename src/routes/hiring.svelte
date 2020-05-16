@@ -6,11 +6,13 @@
   <title>Daftar perusahaan yang masih hiring</title>
 </svelte:head>
 
-<h1>Perusahaan yang masih hiring</h1>
+<h1>Berikut beberapa perusahaan yang masih hiring:</h1>
 
 <ul>
   {#each employers as employer}
-    <li>{employer.name}</li>
+    <li>
+      <a href={employer.link} target="_blank">{employer.name}</a>
+    </li>
   {:else}
     <li>data perusahaan belum tersedia</li>
   {/each}
