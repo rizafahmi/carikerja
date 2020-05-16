@@ -9,7 +9,7 @@
 <nav class="terminal-nav">
   <header class="terminal-logo">
     <div class="terminal-prompt">
-      <a href="/" class="no-style">PHK.id</a>
+      <a href="/" class="no-style">Carikerja</a>
     </div>
   </header>
   <div class="terminal-menu">

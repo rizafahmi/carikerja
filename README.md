@@ -1,4 +1,4 @@
-# PHK.id
+# Carikerja
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -7,7 +7,7 @@ Daftar developer keren yang terpaksa di PHK karena dampak pandemi COVID-19.
 Yang diperlukan (versi minimum): [Node.js](https://nodejs.org) versi 10.
 
 ```shell
-git clone https://github.com/rizafahmi/phkid.git
+git clone https://github.com/rizafahmi/carikerja.git
 npm install
 npm run dev
 ```

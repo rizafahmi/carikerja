@@ -48,7 +48,7 @@
 </style>
 
 <svelte:head>
-  <title>PHK.id - Situs daftar developer yang terkena dampak COVID-19</title>
+  <title>Carikerja - Situs daftar developer yang terkena dampak COVID-19</title>
 </svelte:head>
 
 <h4>Daftar developer keren yang terkena dampak COVID-19.</h4>
@@ -80,14 +80,14 @@
 
   <p>
     Ingin menambahkan seseorang kedalam list?
-    <a href="https://github.com/rizafahmi/phkid" target="_blank">
+    <a href="https://github.com/rizafahmi/carikerja" target="_blank">
       Clone repositori ini
     </a>
     dan tambahkan data baru di
     <code>src/data/people.js</code>
     . Atau edit langsung via
     <a
-      href="https://github.com/rizafahmi/phkid/edit/master/src/data/people.js"
+      href="https://github.com/rizafahmi/carikerja/edit/master/src/data/people.js"
       target="_blank">
       Github
     </a>
