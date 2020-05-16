@@ -1,7 +1,11 @@
 <svelte:head>
-	<title>About</title>
+  <title>Tentang PHK.id</title>
 </svelte:head>
 
-<h1>About this site</h1>
+<h1>Tentang PHK.id</h1>
 
-<p>This is the 'about' page. There's not much here.</p>
+<p>
+  Situs ini berisi daftar developer keren yang
+  <strong>TERPAKSA</strong>
+  di PHK karena pandemi COVID-19.
+</p>
