@@ -5,6 +5,7 @@ module.exports = [
     role: 'Senior Software Engineer',
     location: 'Jakarta',
     social_media: 'https://www.linkedin.com/in/budhi-priyatmojo-37ba1913b/',
+    tech_stack: ['golang', 'nodejs', 'php'],
   },
   {
     name: 'Mahbub Zulkarnain',
@@ -12,6 +13,7 @@ module.exports = [
     role: 'Software Developer',
     location: 'Jakarta',
     social_media: 'https://www.linkedin.com/in/mahbubzulkarnain/',
+    tech_stack: ['react', 'nodejs'],
   },
   {
     name: 'Bambang Kurniawan',
@@ -19,6 +21,7 @@ module.exports = [
     role: 'Senior Software Developer',
     location: 'Jakarta',
     social_media: 'https://www.linkedin.com/in/bems/',
+    tech_stack: ['react', 'devops'],
   },
   {
     name: 'Willy Tan',
@@ -26,6 +29,7 @@ module.exports = [
     role: 'Front-end Developer',
     location: 'Jakarta',
     social_media: 'https://www.linkedin.com/in/willy-tan-198814150/',
+    tech_stack: ['react', 'react-native'],
   },
   {
     name: 'Faris Luthfan Ramadhan',
@@ -33,6 +37,7 @@ module.exports = [
     role: 'Software Developer',
     location: 'Jakarta',
     social_media: 'https://www.linkedin.com/in/farislr/',
+    tech_stack: ['nodejs', 'typescript'],
   },
   {
     name: 'Natascha Meysarach Lamsu',
@@ -40,6 +45,7 @@ module.exports = [
     role: 'Front-end Developer',
     location: 'Jakarta',
     social_media: 'https://www.linkedin.com/in/natascha-lamsu-445369167/',
+    tech_stack: ['react'],
   },
   {
     name: 'Hary Dewantoro',
@@ -47,5 +53,6 @@ module.exports = [
     role: 'Software Quality Assurance',
     location: 'Jakarta',
     social_media: 'https://www.linkedin.com/in/hary-dewantoro-7bb00512a/',
+    tech_stack: [],
   },
 ];

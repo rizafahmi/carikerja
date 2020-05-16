@@ -11,6 +11,40 @@
   ul {
     margin-left: 1em;
   }
+  li {
+    margin-bottom: 0.5em;
+  }
+  .badge {
+    margin-right: 0.5em;
+    padding: 0.25em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    border-radius: 0.5em;
+  }
+  .react {
+    background-color: #61dafb;
+  }
+  .react-native {
+    background-color: #282c34;
+    color: #61dafb;
+  }
+  .typescript {
+    background-color: #027acc;
+    color: #fff;
+  }
+  .devops {
+    background-color: #f8981d;
+  }
+  .golang {
+    background-color: #000;
+    color: #fff;
+  }
+  .nodejs {
+    background-color: #7ab361;
+  }
+  .php {
+    background-color: #777bb3;
+  }
 </style>
 
 <svelte:head>
@@ -27,6 +61,14 @@
         <li>⏲️ {p.status}</li>
         <li>💻 {p.role}</li>
         <li>📍 {p.location}</li>
+        {#if p.tech_stack.length > 0}
+          <li>
+            ⚙️
+            {#each p.tech_stack as tech}
+              <span class="badge {tech}">{tech}</span>
+            {/each}
+          </li>
+        {/if}
         <li>
           <span>🔗</span>
           <a href={p.social_media} target="_blank">Linkedin</a>
