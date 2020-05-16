@@ -43,6 +43,12 @@
     </a>
     dan tambahkan data baru di
     <code>src/data/people.js</code>
+    . Atau edit langsung via
+    <a
+      href="https://github.com/rizafahmi/phkid/edit/master/src/data/people.js"
+      target="_blank">
+      Github
+    </a>
     .
   </p>
 </div>
