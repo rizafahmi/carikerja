@@ -1,5 +1,5 @@
 <script>
-  import people from '../data/people.js';
+  import people from "../data/people.js";
 
   const sortedPeople = people.sort((a, b) => a.name > b.name);
 </script>
@@ -20,6 +20,8 @@
     padding-left: 0.5em;
     padding-right: 0.5em;
     border-radius: 0.5em;
+    margin-bottom: 0.25em;
+    display: inline-block;
   }
   .react {
     background-color: #61dafb;
