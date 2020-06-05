@@ -14,4 +14,15 @@ module.exports = [
     category: 'logistic',
     link: 'https://www.ninjavan.co/en-sg/careers#openings',
   },
+  {
+    name: 'Citra Digital',
+    category: 'konsultan-ti',
+    link: 'https://s.id/CitraDigitalLintas',
+  },
+  {
+    name: 'Tokenomy',
+    category: 'platform-bisnis',
+    link: 'https://www.tokenomy.com/career',
+  },
+
 ];
