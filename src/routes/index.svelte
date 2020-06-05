@@ -53,7 +53,8 @@
   <title>Carikerja - Situs daftar developer yang terkena dampak COVID-19</title>
 </svelte:head>
 
-<h4>Daftar developer keren yang terkena dampak COVID-19.</h4>
+<h4>Kata siapa cari software engineer yang berpengalaman itu susah?</h4>
+<p>Carikerja bisa bantu permudah! Kami akan bantu menghubungkanmu dengan para software engineer yang sedang mencari kesempatan baru karena terkena pemutusan hubungan kerja karena pandemi COVID-19.</p>
 
 <div>
   {#each sortedPeople as p}
@@ -80,19 +81,12 @@
   {/each}
   <hr />
 
-  <p>
-    Ingin menambahkan seseorang kedalam list?
-    <a href="https://github.com/rizafahmi/carikerja" target="_blank">
-      Clone repositori ini
-    </a>
-    dan tambahkan data baru di
-    <code>src/data/people.js</code>
-    . Atau edit langsung via
-    <a
-      href="https://github.com/rizafahmi/carikerja/edit/master/src/data/people.js"
-      target="_blank">
-      Github
-    </a>
-    .
-  </p>
 </div>
+  <div>
+    <h4>Mau menambahkan seseorang?</h4>
+
+    <a href="https://github.com/rizafahmi/carikerja" target="_blank">Clone repositori ini</a>
+    dan tambahkan data baru di
+    <code>src/data/people.js</code>. Bisa juga edit langsung melalui <a href="https://github.com/rizafahmi/carikerja/edit/master/src/data/people.js"
+      target="_blank">Github</a>.
+  </div>
