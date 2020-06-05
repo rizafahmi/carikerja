@@ -28,9 +28,5 @@
   <Nav {segment} />
   <slot />
   <hr />
-  Dipersembahkan oleh
-  <a href="https://deeptech.id" target="_blank">DeepTech Foundation</a>
-  . Kode sumber tersedia di
-  <a href="https://github.com/rizafahmi/carikerja" target="_blank">GitHub</a>
-  .
+  Dipersembahkan oleh <a href="https://deeptech.id" target="_blank">DeepTech Foundation</a>. Kode sumber tersedia di <a href="https://github.com/rizafahmi/carikerja" target="_blank">GitHub</a>.
 </main>
