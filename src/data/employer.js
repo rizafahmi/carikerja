@@ -19,5 +19,10 @@ module.exports = [
     category: 'konsultan-ti',
     link: 'https://s.id/CitraDigitalLintas',
   },
+  {
+    name: 'Tokenomy',
+    category: 'platform-bisnis',
+    link: 'https://www.tokenomy.com/career',
+  },
 
 ];
