@@ -50,7 +50,7 @@
 </style>
 
 <svelte:head>
-  <title>Carikerja - Situs daftar developer yang terkena dampak COVID-19</title>
+  <title>Carikerja akan bantu menghubungkanmu dengan para software engineer yang sedang mencari kesempatan baru</title>
 </svelte:head>
 
 <h4>Kata siapa cari software engineer yang berpengalaman itu susah?</h4>
