@@ -13,6 +13,7 @@
   {#each employers as employer}
     <li>
       <a href={employer.link} target="_blank">{employer.name}</a>
+      <p>{employer.description}</p>
     </li>
   {:else}
     <li>data perusahaan belum tersedia</li>
