@@ -50,11 +50,11 @@
 </style>
 
 <svelte:head>
-  <title>Carikerja akan bantu menghubungkanmu dengan para software engineer yang sedang mencari kesempatan baru</title>
+  <title>Daftar engineer keren yang terkena dampak pemutusan hubungan kerja karena pandemi.</title>
 </svelte:head>
 
 <h4>Kata siapa cari software engineer yang berpengalaman itu susah?</h4>
-<p>Carikerja bisa bantu permudah! Kami akan bantu menghubungkanmu dengan para software engineer yang sedang mencari kesempatan baru karena terkena pemutusan hubungan kerja karena pandemi COVID-19.</p>
+<p>Sekarang, kami buat jadi mudah! Berikut adalah daftar engineer keren yang terkena dampak pemutusan hubungan kerja karena pandemi.</p>
 
 <div>
   {#each sortedPeople as p}
