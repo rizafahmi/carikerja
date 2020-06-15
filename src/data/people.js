@@ -1,27 +1,11 @@
 module.exports = [
   {
-    name: 'Budhi Priyatmojo',
-    status: 'Fulltime',
-    role: 'Senior Software Engineer',
-    location: 'Jakarta',
-    social_media: 'https://www.linkedin.com/in/budhi-priyatmojo-37ba1913b/',
-    tech_stack: ['golang', 'nodejs', 'php'],
-  },
-  {
     name: 'Mahbub Zulkarnain',
     status: 'Fulltime',
     role: 'Software Developer',
     location: 'Jakarta',
     social_media: 'https://www.linkedin.com/in/mahbubzulkarnain/',
     tech_stack: ['react', 'nodejs'],
-  },
-  {
-    name: 'Bambang Kurniawan',
-    status: 'Fulltime',
-    role: 'Senior Software Developer',
-    location: 'Jakarta',
-    social_media: 'https://www.linkedin.com/in/bems/',
-    tech_stack: ['react', 'devops'],
   },
   {
     name: 'Willy Tan',
