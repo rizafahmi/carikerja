@@ -55,4 +55,12 @@ module.exports = [
     social_media: 'https://www.linkedin.com/in/hary-dewantoro-7bb00512a/',
     tech_stack: [],
   },
+  {
+    name: 'Sayed Khaidir Ali',
+    status: 'Fulltime',
+    role: 'Software Engineer Backend',
+    location: 'Jakarta',
+    social_media: 'https://www.linkedin.com/in/sayed-khaidir-ali/',
+    tech_stack: ['nodejs','expressjs','linux','git','typescript','mysql','mongodb'],
+  },
 ];
