@@ -47,6 +47,19 @@
   .php {
     background-color: #777bb3;
   }
+  .hired {
+    background-color: rgba(21, 21, 21, 0.75);
+    z-index: 999;
+    position: absolute;
+    width: 89%;
+    height: 10.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #D20862;
+    font-size: 2em;
+    font-weight: 870;
+  }
 </style>
 
 <svelte:head>
@@ -59,6 +72,11 @@
 <div>
   {#each sortedPeople as p}
     <div class="terminal-card">
+      {#if p.hired}
+        <div class="hired">
+          HIRED!
+        </div>
+      {/if}
       <header>{p.name}</header>
       <ul>
         <li>⏲️ {p.status}</li>
@@ -82,11 +100,11 @@
   <hr />
 
 </div>
-  <div>
-    <h4>Mau menambahkan seseorang?</h4>
+<div>
+  <h4>Mau menambahkan seseorang?</h4>
 
-    <a href="https://github.com/rizafahmi/carikerja" target="_blank">Clone repositori ini</a>
-    dan tambahkan data baru di
-    <code>src/data/people.js</code>. Bisa juga edit langsung melalui <a href="https://github.com/rizafahmi/carikerja/edit/master/src/data/people.js"
-      target="_blank">Github</a>.
-  </div>
+  <a href="https://github.com/rizafahmi/carikerja" target="_blank">Clone repositori ini</a>
+  dan tambahkan data baru di
+  <code>src/data/people.js</code>. Bisa juga edit langsung melalui <a href="https://github.com/rizafahmi/carikerja/edit/master/src/data/people.js"
+                                                                      target="_blank">Github</a>.
+</div>

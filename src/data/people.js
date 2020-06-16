@@ -1,11 +1,21 @@
 module.exports = [
   {
+    name: 'Budhi Priyatmojo',
+    status: 'Fulltime',
+    role: 'Senior Software Engineer',
+    location: 'Jakarta',
+    social_media: 'https://www.linkedin.com/in/budhi-priyatmojo-37ba1913b/',
+    tech_stack: ['golang', 'nodejs', 'php'],
+    hired: true
+  },
+  {
     name: 'Mahbub Zulkarnain',
     status: 'Fulltime',
     role: 'Software Developer',
     location: 'Jakarta',
     social_media: 'https://www.linkedin.com/in/mahbubzulkarnain/',
     tech_stack: ['react', 'nodejs'],
+    hired: true
   },
   {
     name: 'Willy Tan',
@@ -14,6 +24,7 @@ module.exports = [
     location: 'Jakarta',
     social_media: 'https://www.linkedin.com/in/willy-tan-198814150/',
     tech_stack: ['react', 'react-native'],
+    hired: false
   },
   {
     name: 'Faris Luthfan Ramadhan',
@@ -22,6 +33,7 @@ module.exports = [
     location: 'Jakarta',
     social_media: 'https://www.linkedin.com/in/farislr/',
     tech_stack: ['nodejs', 'typescript'],
+    hired: false
   },
   {
     name: 'Natascha Meysarach Lamsu',
@@ -30,6 +42,7 @@ module.exports = [
     location: 'Jakarta',
     social_media: 'https://www.linkedin.com/in/natascha-lamsu-445369167/',
     tech_stack: ['react'],
+    hired: false
   },
   {
     name: 'Hary Dewantoro',
@@ -38,6 +51,7 @@ module.exports = [
     location: 'Jakarta',
     social_media: 'https://www.linkedin.com/in/hary-dewantoro-7bb00512a/',
     tech_stack: [],
+    hired: false
   },
   {
     name: 'Sayed Khaidir Ali',
@@ -45,6 +59,7 @@ module.exports = [
     role: 'Software Engineer Backend',
     location: 'Jakarta',
     social_media: 'https://www.linkedin.com/in/sayed-khaidir-ali/',
-    tech_stack: ['nodejs','expressjs','linux','git','typescript','mysql','mongodb'],
-  },
+    tech_stack: ['nodejs', 'typescript', 'mysql', 'mongodb'],
+    hired: false
+  }
 ];
