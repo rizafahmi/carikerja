@@ -47,30 +47,35 @@
   .php {
     background-color: #777bb3;
   }
+  .vuejs {
+    background-color: #34495e;
+  }
+  .laravel {
+    background-color: red;
+  }
   .hired {
     background-color: rgba(21, 21, 21, 0.75);
     z-index: 999;
     position: absolute;
     display: inline-block;
-    /* width: 89%; */
-    /* height: 10.5%; */
-    /* display: flex; */
-    /* align-items: center; */
-    /* justify-content: center; */
     color: #D20862;
     font-size: 2em;
     font-weight: 870;
-    /* top: 0; */
-    /* left: 0; */
   }
 </style>
 
 <svelte:head>
-  <title>Daftar engineer keren yang terkena dampak pemutusan hubungan kerja karena pandemi.</title>
+  <title>
+    Daftar engineer keren yang terkena dampak pemutusan hubungan kerja karena
+    pandemi.
+  </title>
 </svelte:head>
 
 <h4>Kata siapa cari software engineer yang berpengalaman itu susah?</h4>
-<p>Sekarang, kami buat jadi mudah! Berikut adalah daftar engineer keren yang terkena dampak pemutusan hubungan kerja karena pandemi.</p>
+<p>
+  Sekarang, kami buat jadi mudah! Berikut adalah daftar engineer keren yang
+  terkena dampak pemutusan hubungan kerja karena pandemi.
+</p>
 
 <div>
   {#each sortedPeople as p}
@@ -106,8 +111,16 @@
 <div>
   <h4>Mau menambahkan seseorang?</h4>
 
-  <a href="https://github.com/rizafahmi/carikerja" target="_blank">Clone repositori ini</a>
+  <a href="https://github.com/rizafahmi/carikerja" target="_blank">
+    Clone repositori ini
+  </a>
   dan tambahkan data baru di
-  <code>src/data/people.js</code>. Bisa juga edit langsung melalui <a href="https://github.com/rizafahmi/carikerja/edit/master/src/data/people.js"
-                                                                      target="_blank">Github</a>.
+  <code>src/data/people.js</code>
+  . Bisa juga edit langsung melalui
+  <a
+    href="https://github.com/rizafahmi/carikerja/edit/master/src/data/people.js"
+    target="_blank">
+    Github
+  </a>
+  .
 </div>
