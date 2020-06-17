@@ -33,5 +33,12 @@ module.exports = [
     link: 'https://www.tokenomy.com/career',
     description:
       'Perusahaan yang bergerak mengembangkan ekosistem cryptocurrency.'
+  },
+  {
+    name: 'Datasaur.ai',
+    category: 'kakas-pengembang',
+    link: 'https://www.producthunt.com/posts/datasaur',
+    description:
+      'Perusahaan yang bergerak dalam pengembangan kakas untuk pelabelan data yang lebih produktif dan berkualitas.'
   }
 ];
