@@ -57,12 +57,8 @@
     background-color: rgba(21, 21, 21, 0.75);
     z-index: 999;
     position: absolute;
-    width: 89%;
-    height: 10.5%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #d20862;
+    display: inline-block;
+    color: #D20862;
     font-size: 2em;
     font-weight: 870;
   }
@@ -84,9 +80,6 @@
 <div>
   {#each sortedPeople as p}
     <div class="terminal-card">
-      {#if p.hired}
-        <div class="hired">HIRED!</div>
-      {/if}
       <header>{p.name}</header>
       <ul>
         <li>⏲️ {p.status}</li>
@@ -101,6 +94,11 @@
           </li>
         {/if}
         <li>
+          {#if p.hired}
+            <div class="hired">
+              HIRED!
+            </div>
+          {/if}
           <span>🔗</span>
           <a href={p.social_media} target="_blank">Linkedin</a>
         </li>
