@@ -61,5 +61,14 @@ module.exports = [
     social_media: 'https://www.linkedin.com/in/sayed-khaidir-ali/',
     tech_stack: ['nodejs', 'typescript', 'mysql', 'mongodb'],
     hired: false
+  },
+  {
+    name: 'Rian Akbar Ferdiansyah',
+    status: 'Fulltime',
+    role: 'Jr. Front-end Developer',
+    location: 'Jakarta',
+    social_media: 'https://www.linkedin.com/in/ryanakbar20/',
+    tech_stack: ['react', 'react-native', 'nodejs', 'mongodb'],
+    hired: false
   }
 ];
