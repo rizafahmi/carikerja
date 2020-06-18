@@ -1,7 +1,7 @@
 <script>
   import people from "../data/people.js";
 
-  const sortedPeople = people.sort((a, b) => a.name > b.name);
+  const sortedPeople = people.sort((a, b) => a.hired - b.hired);
 </script>
 
 <style>
