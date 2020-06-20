@@ -78,5 +78,14 @@ module.exports = [{
         social_media: 'https://www.linkedin.com/in/ari-rudiana-260569192/',
         tech_stack: ['vuejs', 'laravel', ],
         hired: false
+    },
+    {
+        name: 'Hardyin Alexander Hutapea',
+        status: 'Fulltime',
+        role: 'Back-end Software Engineer',
+        location: 'Jakarta',
+        social_media: 'https://www.linkedin.com/in/hardlexander/',
+        tech_stack: ['golang', 'mysql', 'redis', 'elasticsearch' ],
+        hired: false
     }
 ];
