@@ -87,5 +87,14 @@ module.exports = [{
         social_media: 'https://www.linkedin.com/in/hardlexander/',
         tech_stack: ['golang', 'mysql', 'redis', 'elasticsearch' ],
         hired: false
+    },
+    {
+        name: 'Muhammad Rizqi',
+        status: 'Fulltime',
+        role: 'Jr. Software Engineer',
+        location: 'Jakarta',
+        social_media: 'https://www.linkedin.com/in/muhrizqi/',
+        tech_stack: ['Python', 'Odoo', 'PostgreSQL'],
+        hired: false
     }
 ];
