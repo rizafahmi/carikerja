@@ -47,5 +47,12 @@ module.exports = [
     link: 'https://www.producthunt.com/posts/datasaur',
     description:
       'Perusahaan yang bergerak dalam pengembangan kakas untuk pelabelan data yang lebih produktif dan berkualitas.'
+  },
+  {
+    name: 'Jabar Digital Service',
+    category: 'government',
+    link: 'https://digitalservice.jabarprov.go.id',
+    description:
+      'Mengakselerasi pembangunan dan layanan publik di Jawa Barat dengan teknologi dan data.'
   }
 ];
