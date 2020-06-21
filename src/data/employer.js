@@ -1,5 +1,12 @@
 module.exports = [
   {
+    name: 'Sekolah.mu',
+    category: 'education-technology',
+    link: 'https://www.linkedin.com/company/sekolahmu/',
+    description:
+      'Sekolah.mu adalah sekolah dengan sistem blended learning pertama di Indonesia berbasis teknologi dan berkolaborasi untuk menyediakan program belajar bagi semua orang.'
+  },
+  {
     name: 'Flip.id',
     category: 'fintech',
     link: 'https://www.techinasia.com/companies/flip-1',
