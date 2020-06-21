@@ -54,5 +54,12 @@ module.exports = [
     link: 'https://digitalservice.jabarprov.go.id',
     description:
       'Mengakselerasi pembangunan dan layanan publik di Jawa Barat dengan teknologi dan data.'
+  },
+  {
+    name: 'Dicoding Indonesia',
+    category: 'education-technology',
+    link: 'https://www.dicoding.com/jobs/1170',
+    description:
+      'Startup yang bertujuan mengembangkan ekosistem developer dan menjadi jaringan terbaik untuk developer di Indonesia.'
   }
 ];
