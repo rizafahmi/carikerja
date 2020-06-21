@@ -54,5 +54,12 @@ module.exports = [
     link: 'https://digitalservice.jabarprov.go.id',
     description:
       'Mengakselerasi pembangunan dan layanan publik di Jawa Barat dengan teknologi dan data.'
+  },
+  {
+    name: 'TaniHub Group (TaniHub & TaniFund)',
+    category: 'agriculture',
+    link: 'https://www.kalibrr.com/c/tanihub/jobs',
+    description:
+      'TaniHub Group, sebuah startup yang bergerak di agrikultur dan teknologi yang memiliki visi untuk mensejahterakan kehidupan petani, dan berfokus pada 3 pilar: Pertanian, Teknologi dan Dampak Sosial.',
   }
 ];
