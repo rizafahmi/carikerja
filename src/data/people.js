@@ -96,5 +96,14 @@ module.exports = [{
         social_media: 'https://www.linkedin.com/in/muhrizqi/',
         tech_stack: ['Python', 'Odoo', 'PostgreSQL'],
         hired: false
+    },
+    {
+        name: 'Rahmat Putra Wiranata',
+        status : 'Fulltime',
+        role : 'Back-end Developer',
+        location : 'Kediri',
+        social_media : 'https://www.linkedin.com/in/rahmatputrawiranata/',
+        tech_stack : ['php', 'react', 'react-native'],
+        hired : 'false'
     }
 ];
