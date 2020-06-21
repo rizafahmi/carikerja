@@ -96,5 +96,14 @@ module.exports = [{
         social_media: 'https://www.linkedin.com/in/muhrizqi/',
         tech_stack: ['Python', 'Odoo', 'PostgreSQL'],
         hired: false
+    },
+    {
+        name: 'Abdul Malik Ikhsan',
+        status: 'Fulltime, Remote',
+        role: 'PHP Developer, System Engineer',
+        location: 'Bandung',
+        social_media: 'https://www.linkedin.com/in/samsonasik/',
+        tech_stack: ['PHP', 'Laminas', 'Mezzio', 'Laminas API Tools'],
+        hired: false
     }
 ];
