@@ -50,10 +50,43 @@
     background-color: #777bb3;
   }
   .vuejs {
-    background-color: #34495e;
+    background-color: #68B181;
+    color: #384A5D;
   }
   .laravel {
     background-color: red;
+  }
+  .mysql {
+    background-color: #E38600;
+    color: #176B94;
+  }
+  .redis {
+    background-color: #A42122;
+    color: #fff;
+  }
+  .elasticsearch {
+    background-color: #FDD10C;
+    color: #25BBB1;
+  }
+  .elasticsearch {
+    background-color: #FDD10C;
+    color: #25BBB1;
+  }
+  .python {
+    background-color: #FDE561;
+    color: #396EA4;
+  }
+  .odoo {
+    background-color: #888888;
+    color: #9C5789;
+  }
+  .postgresql {
+    background-color: #234163;
+    color: #fff;
+  }
+  .mongodb {
+    background-color: #429544;
+    color: #fff;
   }
   .hired {
     background-color: rgba(21, 21, 21, 0.75);
@@ -91,7 +124,7 @@
           <li>
             ⚙️
             {#each p.tech_stack as tech}
-              <span class="badge {tech}">{tech}</span>
+              <span class="badge {tech.toLowerCase()}">{tech}</span>
             {/each}
           </li>
         {/if}
