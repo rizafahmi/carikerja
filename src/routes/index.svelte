@@ -141,7 +141,7 @@
           {/if}
 
           {#if typeof p.social_media === 'object'}
-            {#each Object.keys(p.social_media) as key}
+            {#each Object.keys(p.social_media).sort() as key}
               <span>🔗</span>
               <a href={p.social_media[key]} target="_blank">{key}</a>
             {/each}
