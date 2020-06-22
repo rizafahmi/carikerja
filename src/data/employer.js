@@ -62,6 +62,7 @@ module.exports = [
     description:
       'TaniHub Group, sebuah startup yang bergerak di agrikultur dan teknologi yang memiliki visi untuk mensejahterakan kehidupan petani, dan berfokus pada 3 pilar: Pertanian, Teknologi dan Dampak Sosial.'
   },
+  {
     name: 'Dicoding Indonesia',
     category: 'education-technology',
     link: 'https://www.dicoding.com/jobs/1170',
