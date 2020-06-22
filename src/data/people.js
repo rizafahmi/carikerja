@@ -68,7 +68,7 @@ module.exports = [{
         location: 'Jakarta',
         social_media: 'https://www.linkedin.com/in/sayed-khaidir-ali/',
         tech_stack: ['nodejs', 'typescript', 'mysql', 'mongodb'],
-        hired: false
+        hired: true
     },
     {
         name: 'Rian Akbar Ferdiansyah',
