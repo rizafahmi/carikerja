@@ -105,5 +105,17 @@ module.exports = [{
         social_media: 'https://www.linkedin.com/in/samsonasik/',
         tech_stack: ['PHP', 'Laminas', 'Mezzio', 'Laminas API Tools'],
         hired: false
+    },
+    {
+        name: 'Bahyu Sanciko',
+        status: 'Fulltime, Remote',
+        role: 'Full Stack Developer',
+        location: 'Bandung',
+        social_media: {
+            Linkedin: 'https://www.linkedin.com/in/bahyu-sanciko/',
+            Github: 'https://github.com/bahyusanciko'
+        },
+        tech_stack: ['Laravel', 'Codeigniter', 'Angular', 'Ionic'],
+        hired: false
     }
 ];
