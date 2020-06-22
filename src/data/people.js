@@ -17,6 +17,15 @@ module.exports = [{
         hired: true
     },
     {
+        name: 'Rikki Novar',
+        status: 'Fulltime',
+        role: 'Front-end Developer',
+        location: 'Bandung',
+        social_media: 'https://www.linkedin.com/in/rikkinovar/',
+        tech_stack: ['react', 'react-native'],
+        hired: false
+    },
+    {
         name: 'Willy Tan',
         status: 'Fulltime',
         role: 'Front-end Developer',
