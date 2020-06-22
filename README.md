@@ -14,4 +14,14 @@ npm run dev
 
 lalu buka alamat `localhost:3000`.
 
-Untuk menambahkan data developer silakan ubah file `src/data/people.js` dan untuk menambahkan data perusahaan yang masih melakukan hiring silakan ubah file `src/data/employer.js`.
+Untuk menambahkan data developer silakan ubah file `src/data/people.js`. Data social media dapat dibuat multi dengan mengupdate menjadi bentuk object, seperti contoh:
+
+```javascript
+    social_media: {
+        Linkedin : 'https://www.linkedin.com/in/foo/',
+        Github   : 'https://github.com/foo'
+    },
+```
+
+dan untuk menambahkan data perusahaan yang masih melakukan hiring silakan ubah file `src/data/employer.js`.
+

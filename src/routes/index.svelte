@@ -101,8 +101,19 @@
               HIRED!
             </div>
           {/if}
-          <span>🔗</span>
-          <a href={p.social_media} target="_blank">Linkedin</a>
+
+          {#if typeof p.social_media == 'string'}
+            <span>🔗</span>
+            <a href={p.social_media} target="_blank">Linkedin</a>
+          {/if}
+
+          {#if typeof p.social_media === 'object'}
+            {#each Object.keys(p.social_media) as key}
+              <span>🔗</span>
+              <a href={p.social_media[key]} target="_blank">{key}</a>
+            {/each}
+          {/if}
+
         </li>
       </ul>
     </div>
