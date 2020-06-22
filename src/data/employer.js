@@ -68,5 +68,12 @@ module.exports = [
     link: 'https://www.dicoding.com/jobs/1170',
     description:
       'Startup yang bertujuan mengembangkan ekosistem developer dan menjadi jaringan terbaik untuk developer di Indonesia.'
+  },
+  {
+    name: 'Kitabisa',
+    category: 'crowdfunding',
+    link: 'https://kitabisa.urbanhire.com',
+    description:
+      'Kitabisa adalah wadah untuk berdonasi dan menggalang dana secara online terbesar di Asia Tenggara.'
   }
 ];
