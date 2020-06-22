@@ -60,6 +60,12 @@ module.exports = [
     category: 'agriculture',
     link: 'https://www.kalibrr.com/c/tanihub/jobs',
     description:
-      'TaniHub Group, sebuah startup yang bergerak di agrikultur dan teknologi yang memiliki visi untuk mensejahterakan kehidupan petani, dan berfokus pada 3 pilar: Pertanian, Teknologi dan Dampak Sosial.',
+      'TaniHub Group, sebuah startup yang bergerak di agrikultur dan teknologi yang memiliki visi untuk mensejahterakan kehidupan petani, dan berfokus pada 3 pilar: Pertanian, Teknologi dan Dampak Sosial.'
+  },
+    name: 'Dicoding Indonesia',
+    category: 'education-technology',
+    link: 'https://www.dicoding.com/jobs/1170',
+    description:
+      'Startup yang bertujuan mengembangkan ekosistem developer dan menjadi jaringan terbaik untuk developer di Indonesia.'
   }
 ];
