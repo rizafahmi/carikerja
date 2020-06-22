@@ -111,7 +111,12 @@ module.exports = [{
         status: 'Fulltime, Remote',
         role: 'PHP Developer, System Engineer',
         location: 'Bandung',
-        social_media: 'https://www.linkedin.com/in/samsonasik/',
+        social_media: {
+            Linkedin: 'https://www.linkedin.com/in/samsonasik/',
+            Github: 'https://github.com/samsonasik',
+            Twitter: 'https://twitter.com/samsonasik',
+            Blog: 'https://samsonasik.wordpress.com/'
+        },
         tech_stack: ['PHP', 'Laminas', 'Mezzio', 'Laminas API Tools'],
         hired: false
     },
