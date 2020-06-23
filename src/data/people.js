@@ -131,5 +131,17 @@ module.exports = [{
         },
         tech_stack: ['Laravel', 'Codeigniter', 'Angular', 'Ionic'],
         hired: false
+    },
+{
+        name: 'Febriano Akbar Ramadhani',
+        status: 'Remote',
+        role: 'Junior Software Engineer',
+        location: 'Malang',
+        social_media: {
+            Github: 'https://github.com/spiritbro1'
+        },
+        tech_stack: ['Python', 'Nodejs'],
+        hired: false
     }
+
 ];
