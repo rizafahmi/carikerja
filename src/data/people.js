@@ -131,5 +131,20 @@ module.exports = [{
         },
         tech_stack: ['Laravel', 'Codeigniter', 'Angular', 'Ionic'],
         hired: false
+    },
+{
+        name: 'Febriano Akbar Ramadhani',
+        status: 'Remote',
+        role: 'Junior Software Engineer',
+        location: 'Malang',
+        social_media: {
+            Github: 'https://bit.ly/rinogithub',
+                Whatsapp: 'https://bit.ly/rinowhatsapp',
+                Blog:'https://bit.ly/rinodevto',
+                Resume:'https://bit.ly/resumerino'
+        },
+        tech_stack: ['Python', 'Nodejs','Vuejs'],
+        hired: false
     }
+
 ];
