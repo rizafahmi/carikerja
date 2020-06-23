@@ -138,7 +138,10 @@ module.exports = [{
         role: 'Junior Software Engineer',
         location: 'Malang',
         social_media: {
-            Github: 'https://github.com/spiritbro1'
+            Github: 'https://bit.ly/rinogithub',
+                Whatsapp: 'https://bit.ly/rinowhatsapp',
+                Blog:'https://bit.ly/rinodevto',
+                Resume:'https://bit.ly/resumerino'
         },
         tech_stack: ['Python', 'Nodejs'],
         hired: false
