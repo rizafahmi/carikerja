@@ -75,5 +75,12 @@ module.exports = [
     link: 'https://kitabisa.urbanhire.com',
     description:
       'Kitabisa adalah wadah untuk berdonasi dan menggalang dana secara online terbesar di Asia Tenggara.'
+  },
+  {
+    name: 'Widya Inovasi Indonesia',
+    category: 'ai-iot',
+    link: 'https://www.linkedin.com/posts/widya-indonesia_pt-widya-inovasi-indonesia-is-looking-for-activity-6679343010666442753-nZt-',
+    description:
+      'WII bergerak di bidang Artificial Intelligence dan Internet of Things. Bertempat di Yogyakarta.'
   }
 ];
