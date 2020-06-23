@@ -143,7 +143,7 @@ module.exports = [{
                 Blog:'https://bit.ly/rinodevto',
                 Resume:'https://bit.ly/resumerino'
         },
-        tech_stack: ['Python', 'Nodejs'],
+        tech_stack: ['Python', 'Nodejs','Vue'],
         hired: false
     }
 
