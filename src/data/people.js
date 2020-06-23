@@ -131,5 +131,17 @@ module.exports = [{
         },
         tech_stack: ['Laravel', 'Codeigniter', 'Angular', 'Ionic'],
         hired: false
+    },
+    {
+        name: 'Adzanny Akbar',
+        status: 'Fulltime, Remote',
+        role: 'Full Stack Developer',
+        location: 'Jakarta',
+        social_media: {
+            Linkedin: 'https://www.linkedin.com/in/adzannyaa/',
+            Github: 'https://gitlab.com/zanisis'
+        },
+        tech_stack: ['React', 'React Native', 'Flutter', 'NodeJS'],
+        hired: true
     }
 ];
