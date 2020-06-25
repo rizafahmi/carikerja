@@ -157,6 +157,18 @@ module.exports = [{
         },
         tech_stack: ['React', 'React Native', 'Flutter', 'NodeJS'],
         hired: false
+    },
+    {
+        name: 'Zainal Arifin',
+        status: 'Fulltime, Remote',
+        role: 'Software Developer',
+        location: 'Bandung',
+        social_media: {
+            Linkedin: 'https://www.linkedin.com/in/zainalar/',
+            Github: 'https://github.com/zainalarifinid',
+        },
+        tech_stack: ['JavaScript', 'TypeScript', 'NodeJS', 'PHP', 'VueJS'],
+        hired: false
     }
 
 ];
