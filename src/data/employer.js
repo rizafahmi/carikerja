@@ -1,5 +1,12 @@
 module.exports = [
   {
+    name: 'Doku',
+    category: 'financial-technology',
+    link: 'https://www.linkedin.com/company/doku-indonesia',
+    description:
+      'Doku is determined to play a role in Indonesia’s digital economic growth. With an undying level of commitment and limitless innovation. We are consistently moving forward to solidify a position as the leading and trusted online payment.'
+  },
+  {
     name: 'Warung Pintar',
     category: 'retail-technology',
     link: 'https://warungpintar.co.id/karir/',
