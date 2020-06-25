@@ -157,6 +157,15 @@ module.exports = [{
         },
         tech_stack: ['React', 'React Native', 'Flutter', 'NodeJS'],
         hired: false
-    }
+    },
+   {
+        name: 'Ilhan Bintang',
+        status: 'Fulltime',
+        role: 'Machine Learning Engineer',
+        location: 'Jakarta',
+        social_media: 'https://www.linkedin.com/in/nullphantom/',
+        tech_stack: ['tensorflow', 'pytorch', 'Elasticsearch'],
+        hired: false
+    },
 
 ];
