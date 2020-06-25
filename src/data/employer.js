@@ -1,5 +1,12 @@
 module.exports = [
   {
+    name: 'Warung Pintar',
+    category: 'retail-technology',
+    link: 'https://warungpintar.co.id/karir/',
+    description:
+      'Warung Pintar adalah perusahaan teknologi yang mentransformasi warung di Indonesia. Kami menyediakan program yang memungkinkan Juragan terus bertumbuh sesuai dengan jenis usahanya.'
+  },
+  {
     name: 'Sekolah.mu',
     category: 'education-technology',
     link: 'https://www.linkedin.com/company/sekolahmu/',
