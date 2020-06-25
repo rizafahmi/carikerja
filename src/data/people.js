@@ -163,8 +163,12 @@ module.exports = [{
         status: 'Fulltime',
         role: 'Machine Learning Engineer',
         location: 'Jakarta',
-        social_media: 'https://www.linkedin.com/in/nullphantom/',
-        tech_stack: ['tensorflow', 'pytorch', 'Elasticsearch'],
+        social_media: {
+            Linkedin: 'https://www.linkedin.com/in/nullphantom/',
+            Github: 'https://github.com/nullphantom',
+            Blog: 'https://abin.web.id/'
+        },
+        tech_stack: ['Tensorflow', 'Python', 'Elasticsearch'],
         hired: false
     },
 
