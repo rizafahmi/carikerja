@@ -159,7 +159,7 @@ module.exports = [{
         hired: false
     },
    {
-        name: 'Ilhan Bintang',
+        name: 'Ilham Bintang',
         status: 'Fulltime',
         role: 'Machine Learning Engineer',
         location: 'Jakarta',
