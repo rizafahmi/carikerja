@@ -1,5 +1,12 @@
 module.exports = [
   {
+    name: 'Warung Pintar',
+    category: 'retail-technology',
+    link: 'https://warungpintar.co.id/karir/',
+    description:
+      'Warung Pintar adalah perusahaan teknologi yang mentransformasi warung di Indonesia. Kami menyediakan program yang memungkinkan Juragan terus bertumbuh sesuai dengan jenis usahanya.'
+  },
+  {
     name: 'Sekolah.mu',
     category: 'education-technology',
     link: 'https://www.linkedin.com/company/sekolahmu/',
@@ -80,7 +87,9 @@ module.exports = [
     name: 'Widya Inovasi Indonesia',
     category: 'ai-iot',
     link: 'https://www.linkedin.com/posts/widya-indonesia_we-are-hiring-we-are-looking-for-young-activity-6681166837834661889-nJGq',
+    description: 'PT Widya Inovasi Indonesia merupakan perusahaan Informasi dan Teknologi yang fokus menghadirkan teknologi masa depan. Kami mengembangkan komponen utama Industri 4.0 seperti teknologi Artificial Intelligence, Otomasi dan Robotika. Kami mencari putra-putri terbaik bangsa untuk mengisi beberapa posisi sebagai berikut.'
+    link: 'https://www.linkedin.com/posts/widya-indonesia_pt-widya-inovasi-indonesia-is-looking-for-activity-6679343010666442753-nZt-',
     description:
-      'PT Widya Inovasi Indonesia merupakan perusahaan Informasi dan Teknologi yang fokus menghadirkan teknologi masa depan. Kami mengembangkan komponen utama Industri 4.0 seperti teknologi Artificial Intelligence, Otomasi dan Robotika. Kami mencari putra-putri terbaik bangsa untuk mengisi beberapa posisi sebagai berikut.'
+      'WII bergerak di bidang Artificial Intelligence dan Internet of Things. Bertempat di Yogyakarta.'
   }
 ];
