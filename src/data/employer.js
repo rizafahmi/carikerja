@@ -70,6 +70,13 @@ module.exports = [
       'TaniHub Group, sebuah startup yang bergerak di agrikultur dan teknologi yang memiliki visi untuk mensejahterakan kehidupan petani, dan berfokus pada 3 pilar: Pertanian, Teknologi dan Dampak Sosial.'
   },
   {
+    name: 'eFishery',
+    category: 'aquaculture',
+    link: 'https://engineering.efishery.com/blog/gabung-sebagai-engineer',
+    description:
+      'Perusahaan yang bergerak di bidang inovasi akuakultur, dengan menyediakan teknologi secara terintegrasi dari hulu hingga ke hilir untuk memecahkan masalah pembudidaya.'
+  },
+  {
     name: 'Dicoding Indonesia',
     category: 'education-technology',
     link: 'https://www.dicoding.com/jobs/1170',

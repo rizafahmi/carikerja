@@ -159,6 +159,19 @@ module.exports = [{
         hired: false
     },
     {
+        name: 'Ilham Bintang',
+        status: 'Fulltime',
+        role: 'Machine Learning Engineer',
+        location: 'Jakarta',
+        social_media: {
+            Linkedin: 'https://www.linkedin.com/in/nullphantom/',
+            Github: 'https://github.com/nullphantom',
+            Blog: 'https://abin.web.id/'
+        },
+        tech_stack: ['Tensorflow', 'Python', 'Elasticsearch'],
+        hired: false
+    },
+    {
         name: 'Zainal Arifin',
         status: 'Fulltime, Remote',
         role: 'Software Developer',
