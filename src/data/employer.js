@@ -1,5 +1,12 @@
 module.exports = [
   {
+    name: 'Doku',
+    category: 'financial-technology',
+    link: 'https://www.linkedin.com/company/doku-indonesia',
+    description:
+      'Doku merupakan perusahaan finansial teknologi berdiri di tahun 2007 dan merupakan perusahaan payment gateway pertama di Indonesia.'
+  },
+  {
     name: 'Warung Pintar',
     category: 'retail-technology',
     link: 'https://warungpintar.co.id/karir/',
