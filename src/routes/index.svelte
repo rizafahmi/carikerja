@@ -28,9 +28,21 @@
   .react {
     background-color: #61dafb;
   }
+  .angular {
+    background-color: #c70031;
+    color: #fff;
+  }
   .react-native {
     background-color: #282c34;
     color: #61dafb;
+  }
+  .flutter {
+    background-color: #007ae4;
+    color: #fff;
+  }
+  .ionic{
+    background-color: #e3f1fc;
+    color: #408ff8
   }
   .typescript {
     background-color: #027acc;
@@ -48,6 +60,10 @@
   }
   .php {
     background-color: #777bb3;
+  }
+  .codeigniter{
+    background-color: #e1451f;
+    color: #fff
   }
   .vuejs {
     background-color: #68B181;
@@ -87,6 +103,14 @@
   .mongodb {
     background-color: #429544;
     color: #fff;
+  }
+  .tensorflow{
+    background-color: #ff7a20;
+    color: #fff;
+  }
+  .javascript{
+    background-color: #fade3c;
+    color: #000;
   }
   .hired {
     background-color: rgba(21, 21, 21, 0.75);
