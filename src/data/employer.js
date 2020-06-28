@@ -100,8 +100,8 @@ module.exports = [
   {
     name: 'Widya Inovasi Indonesia',
     category: 'ai-iot',
-    link: 'https://www.linkedin.com/posts/widya-indonesia_pt-widya-inovasi-indonesia-is-looking-for-activity-6679343010666442753-nZt-',
-    description:
-      'WII bergerak di bidang Artificial Intelligence dan Internet of Things. Bertempat di Yogyakarta.'
+    link: 'https://www.linkedin.com/posts/widya-indonesia_we-are-hiring-we-are-looking-for-young-activity-6681166837834661889-nJGq',
+    description: 
+      'PT Widya Inovasi Indonesia merupakan perusahaan Informasi dan Teknologi yang fokus menghadirkan teknologi masa depan. Kami mengembangkan komponen utama Industri 4.0 seperti teknologi Artificial Intelligence, Otomasi dan Robotika. Kami mencari putra-putri terbaik bangsa untuk mengisi beberapa posisi.'
   }
 ];
