@@ -1,5 +1,19 @@
 module.exports = [
   {
+    name: 'Doku',
+    category: 'financial-technology',
+    link: 'https://www.linkedin.com/company/doku-indonesia',
+    description:
+      'Doku merupakan perusahaan finansial teknologi berdiri di tahun 2007 dan merupakan perusahaan payment gateway pertama di Indonesia.'
+  },
+  {
+    name: 'Warung Pintar',
+    category: 'retail-technology',
+    link: 'https://warungpintar.co.id/karir/',
+    description:
+      'Warung Pintar adalah perusahaan teknologi yang mentransformasi warung di Indonesia. Kami menyediakan program yang memungkinkan Juragan terus bertumbuh sesuai dengan jenis usahanya.'
+  },
+  {
     name: 'Sekolah.mu',
     category: 'education-technology',
     link: 'https://www.linkedin.com/company/sekolahmu/',
@@ -61,6 +75,13 @@ module.exports = [
     link: 'https://www.kalibrr.com/c/tanihub/jobs',
     description:
       'TaniHub Group, sebuah startup yang bergerak di agrikultur dan teknologi yang memiliki visi untuk mensejahterakan kehidupan petani, dan berfokus pada 3 pilar: Pertanian, Teknologi dan Dampak Sosial.'
+  },
+  {
+    name: 'eFishery',
+    category: 'aquaculture',
+    link: 'https://engineering.efishery.com/blog/gabung-sebagai-engineer',
+    description:
+      'Perusahaan yang bergerak di bidang inovasi akuakultur, dengan menyediakan teknologi secara terintegrasi dari hulu hingga ke hilir untuk memecahkan masalah pembudidaya.'
   },
   {
     name: 'Dicoding Indonesia',
