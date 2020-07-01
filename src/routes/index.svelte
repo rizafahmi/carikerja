@@ -1,9 +1,29 @@
 <script>
+  import { onMount } from 'svelte';
   import people from "../data/people.js";
 
-  let sortedPeople = people.sort((a, b) => a.name > b.name);
-  sortedPeople = sortedPeople.sort((a, b) => a.hired - b.hired);
+  let sortedPeople = []
+  let getAllLocation = people.map(person => person.location)
+  getAllLocation = [...new Set(getAllLocation)].sort((a, b) => a.localeCompare(b)) // get unique location and filter by alphabetically
 
+  function getSortedPeople() {
+    sortedPeople = people.sort((a, b) => a.name > b.name);
+    sortedPeople = sortedPeople.sort((a, b) => a.hired - b.hired);
+  }
+
+  // handle filter location
+  function handleLocationChange(e) {
+    const value = e.target.value
+    if (!value) getSortedPeople()
+    else {
+      getSortedPeople()
+      sortedPeople = sortedPeople.filter(people => people.location === value)
+    }
+  }
+
+  onMount(() => {
+    getSortedPeople()
+  })
 </script>
 
 <style>
@@ -121,6 +141,18 @@
     font-size: 2em;
     font-weight: 870;
   }
+
+  .filter-location-wrapper {
+    display: grid;
+    justify-content: flex-end;
+    align-items: center;
+    grid-template-columns: repeat(2, max-content);
+    grid-column-gap: 8px;
+  }
+
+  .filter-location-wrapper select {
+    padding: 3px 40px 3px 0;
+  }
 </style>
 
 <svelte:head>
@@ -135,7 +167,15 @@
   Sekarang, kami buat jadi mudah! Berikut adalah daftar engineer keren yang
   terkena dampak pemutusan hubungan kerja karena pandemi.
 </p>
-
+<div class="filter-location-wrapper">
+  <span>Cari Berdasarkan Lokasi</span>
+  <select on:change={handleLocationChange}>
+    <option value="">Semua Lokasi</option>
+    {#each getAllLocation as location}
+      <option value={location}>{location}</option>
+    {/each}
+  </select>
+</div>
 <div>
   {#each sortedPeople as p}
     <div class="terminal-card">
