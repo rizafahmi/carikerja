@@ -103,5 +103,12 @@ module.exports = [
     link: 'https://www.linkedin.com/posts/widya-indonesia_we-are-hiring-we-are-looking-for-young-activity-6681166837834661889-nJGq',
     description: 
       'PT Widya Inovasi Indonesia merupakan perusahaan Informasi dan Teknologi yang fokus menghadirkan teknologi masa depan. Kami mengembangkan komponen utama Industri 4.0 seperti teknologi Artificial Intelligence, Otomasi dan Robotika. Kami mencari putra-putri terbaik bangsa untuk mengisi beberapa posisi.'
-  }
+  },
+  {
+    name: 'Xendit',
+    category: 'financial-technology',
+    link: 'https://www.xendit.co/en/careers/',
+    description: 
+      'Xendit adalah gateway pembayaran yang membuat pembayaran untuk semua jenis bisnis di Indonesia jauh lebih mudah. Layanan ini memungkinkan pelanggan untuk menerima dan mengirim uang dengan integrasi sederhana.'
+  },
 ];
