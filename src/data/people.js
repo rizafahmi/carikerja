@@ -104,7 +104,7 @@ module.exports = [{
         location: 'Jakarta',
         social_media: 'https://www.linkedin.com/in/muhrizqi/',
         tech_stack: ['Python', 'Odoo', 'PostgreSQL'],
-        hired: false
+        hired: true
     },
     {
         name: 'Abdul Malik Ikhsan',
