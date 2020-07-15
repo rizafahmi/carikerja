@@ -105,6 +105,13 @@ module.exports = [
       'PT Widya Inovasi Indonesia merupakan perusahaan Informasi dan Teknologi yang fokus menghadirkan teknologi masa depan. Kami mengembangkan komponen utama Industri 4.0 seperti teknologi Artificial Intelligence, Otomasi dan Robotika. Kami mencari putra-putri terbaik bangsa untuk mengisi beberapa posisi.'
   },
   {
+    name: 'ALAMI',
+    category: 'financial-technology',
+    link: 'https://p2p.alamisharia.co.id/karir',
+    description: 
+      'Platform peer-to-peer lending syariah yang sudah resmi berizin dan diawasi OJK.'
+  },
+  {
     name: 'Xendit',
     category: 'financial-technology',
     link: 'https://www.xendit.co/en/careers/',
