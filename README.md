@@ -25,3 +25,9 @@ Untuk menambahkan data developer silakan ubah file `src/data/people.js`. Data so
 
 dan untuk menambahkan data perusahaan yang masih melakukan hiring silakan ubah file `src/data/employer.js`.
 
+## Dukungan
+
+Dukung terus pengembangan aplikasi ini dengan donasi via:
+
+* [Karyakarsa](https://karyakarsa.com/rizafahmi/rewards)
+* [GoKreator](https://gokreator.com/rizafahmi/tiers/)
