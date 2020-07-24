@@ -124,13 +124,15 @@ module.exports = [{
         name: 'Bahyu Sanciko',
         status: 'Fulltime, Remote',
         role: 'Full Stack Developer',
-        location: 'Bandung',
+        location: 'Jakarta',
         social_media: {
             Linkedin: 'https://www.linkedin.com/in/bahyu-sanciko/',
-            Github: 'https://github.com/bahyusanciko'
+            Github: 'https://github.com/bahyusanciko',
+            Blog: 'https://bahyusanciko.github.io/',
+            Twitter: 'https://twitter.com/bhysnck',
         },
         tech_stack: ['Laravel', 'Codeigniter', 'Angular', 'Ionic'],
-        hired: false
+        hired: true
     },
     {
         name: 'Adzanny Akbar',
