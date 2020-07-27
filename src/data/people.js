@@ -1,4 +1,16 @@
 module.exports = [{
+        name: 'Ainul',
+        status: 'Fulltime',
+        role: 'Junior Mobile Developer',
+        location: 'Surabaya',
+        social_media: {
+            Linkedin: 'https://www.linkedin.com/in/ai-null/',
+            Github: 'https://github.com/ai-null',
+        },
+        tech_stack: ['Kotlin'],
+        hired: false
+    },
+    {
         name: 'Budhi Priyatmojo',
         status: 'Fulltime',
         role: 'Senior Software Engineer',
