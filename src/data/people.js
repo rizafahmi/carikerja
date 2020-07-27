@@ -144,7 +144,7 @@ module.exports = [{
             Github: 'https://gitlab.com/zanisis'
         },
         tech_stack: ['React', 'React Native', 'Flutter', 'NodeJS'],
-        hired: false
+        hired: true
     },
     {
         name: 'Ilham Bintang',
