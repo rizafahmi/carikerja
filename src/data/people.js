@@ -1,4 +1,15 @@
 module.exports = [{
+        name: 'Rifki Andriyanto',
+        status: 'Fulltime',
+        role: 'Frontend Developer',
+        location: 'Bogor',
+        social_media: {
+                        Linkedin: 'https://www.linkedin.com/in/andriyantorifki',
+                        Github: 'https://github.com/rifkiandriyanto',
+        },
+        tech_stack: ['react', 'react native', 'javascript', 'css','nodejs'],
+        hired: false
+    },{
         name: 'Lelianto Eko Pradana',
         status: 'Fulltime',
         role: 'Front End Web Developer',
