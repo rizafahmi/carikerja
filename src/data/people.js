@@ -75,7 +75,7 @@ module.exports = [{
         location: 'Jakarta',
         social_media: 'https://www.linkedin.com/in/farislr/',
         tech_stack: ['nodejs', 'typescript'],
-        hired: false
+        hired: true
     },
     {
         name: 'Natascha Meysarach Lamsu',
