@@ -206,18 +206,6 @@ module.exports = [{
         hired: false
     },
     {
-
-      name: 'Mardiansyah N',
-      status: 'Fulltime',
-      role: 'Full Stack Developer',
-      location: 'Jakarta',
-      social_media: {
-          Linkedin: 'https://www.linkedin.com/in/mardiansyah-n/',
-      },
-      tech_stack: ['NodeJS', 'PostgreSQL', 'mongodb', 'React', 'VueJS'],
-      hired: false
-    },
-    {
         name: 'Hasobi Roid Radityo',
         status: 'Fulltime, Remote',
         role: 'DevOps Engineer, Software Engineer',
