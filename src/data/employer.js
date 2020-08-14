@@ -118,4 +118,11 @@ module.exports = [
     description: 
       'Xendit adalah gateway pembayaran yang membuat pembayaran untuk semua jenis bisnis di Indonesia jauh lebih mudah. Layanan ini memungkinkan pelanggan untuk menerima dan mengirim uang dengan integrasi sederhana.'
   },
+  {
+    name: 'Traveloka',
+    category: 'online-travel-agent',
+    link: 'https://www.traveloka.com/en-id/careers',
+    description: 
+      'Traveloka adalah perusahaan travel terkemuka di Asia Tenggara yang menyediakan berbagai kebutuhan perjalanan dalam satu platform, memungkinkan Anda untuk menciptakan momen bersama orang-orang terkasih. Kami menawarkan tiket pesawat, hotel, tiket kereta, paket pesawat + hotel, aktivitas & rekreasi, produk-produk konektivitas, layanan finansial, dan asuransi.'
+  },
 ];
