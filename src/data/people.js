@@ -19,7 +19,7 @@ module.exports = [{
                         Github: 'https://github.com/Lelianto',
         },
         tech_stack: ['React.js','Nuxt.js','Python','Flask','Javascript'],
-        hired: false
+        hired: true
     },{
         name: 'Ainul',
         status: 'Fulltime',
