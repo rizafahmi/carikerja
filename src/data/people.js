@@ -1,4 +1,15 @@
 module.exports = [{
+        name: "Tony Sanjaya",
+        status: "Fulltime, Remote",
+        role: "Fullstack Developer",
+        location: "Surabaya",
+        social_media: {
+                Linkedin: "https://www.linkedin.com/in/tony-sanjaya-11836042/",
+                Github: "https://github.com/sanjayatony",
+        },
+        tech_stack: ["WordPress", "PHP", "Tailwind CSS", "VueJS", "Shopify"],
+        hired: false,
+   },{
         name: 'Rifki Andriyanto',
         status: 'Fulltime',
         role: 'Frontend Developer',
