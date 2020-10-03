@@ -220,12 +220,12 @@ module.exports = [{
         name: 'Hasobi Roid Radityo',
         status: 'Fulltime, Remote',
         role: 'DevOps Engineer, Software Engineer',
-        location: 'Bandung',
+        location: 'Surakarta',
         social_media: {
             Linkedin: 'https://www.linkedin.com/in/hasobi/',
             Github: 'https://github.com/hasobi',
         },
-        tech_stack: ['Python','JavaScript','Terraform'],
+        tech_stack: ['Python','JavaScript','Go','Terraform'],
         hired: false
     }
 ];
