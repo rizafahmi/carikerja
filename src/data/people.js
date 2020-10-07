@@ -163,7 +163,7 @@ module.exports = [{
             Blog: 'https://samsonasik.wordpress.com/'
         },
         tech_stack: ['PHP', 'Laminas', 'Mezzio', 'Laminas API Tools'],
-        hired: false
+        hired: true
     },
     {
         name: 'Bahyu Sanciko',
