@@ -227,5 +227,18 @@ module.exports = [{
         },
         tech_stack: ['Python','JavaScript','Go','Terraform'],
         hired: false
+    },
+    {
+        name: 'Anton Purwanto',
+        status: 'Fulltime, Remote',
+        role: 'Java Developer, Software Engineer',
+        location: 'Tangerang Selatan',
+        social_media: {
+            Linkedin:'https://www.linkedin.com/in/anton-purwanto-268a4050',
+            Github: 'https://github.com/anteknik',
+            AboutMe: 'https://about.me/antonpurwanto'
+        },
+        tech_stack: ['Java','Spring Framework','Liferay','JPA/hibernate','JSF/JSP'],
+        hired: false
     }
 ];
