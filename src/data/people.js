@@ -118,7 +118,7 @@ module.exports = [{
     {
         name: 'Rian Akbar Ferdiansyah',
         status: 'Fulltime',
-        role: 'Jr. Front-end Developer',
+        role: 'Front-end Developer',
         location: 'Jakarta',
         social_media: 'https://www.linkedin.com/in/ryanakbar20/',
         tech_stack: ['react', 'react-native', 'nodejs', 'mongodb'],
