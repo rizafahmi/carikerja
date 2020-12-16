@@ -4,12 +4,23 @@ module.exports = [{
         role: "Fullstack Developer",
         location: "Surabaya",
         social_media: {
-                Linkedin: "https://www.linkedin.com/in/tony-sanjaya-11836042/",
+                Linkedin: "https://www.linkedin.com/in/prana-wijaya/",
                 Github: "https://github.com/sanjayatony",
         },
-        tech_stack: ["WordPress", "PHP", "Tailwind CSS", "VueJS", "Shopify"],
+        tech_stack: ["VueJS", "NuxtJS", "Tailwind CSS", "Codeigniter", "Php"],
         hired: false,
    },{
+        name: 'Prana Apsara Wijaya',
+        status: 'Fulltime',
+        role: 'Frontend Developer',
+        location: 'Jakarta',
+        social_media: {
+                        Linkedin: 'https://www.linkedin.com/in/andriyantorifki',
+                        Github: 'https://github.com/pranahonk',
+        },
+        tech_stack: ['react', 'react native', 'javascript', 'css','nodejs'],
+        hired: false
+    },{
         name: 'Rifki Andriyanto',
         status: 'Fulltime',
         role: 'Frontend Developer',
