@@ -239,6 +239,6 @@ module.exports = [{
             AboutMe: 'https://about.me/antonpurwanto'
         },
         tech_stack: ['Java','Spring Framework','Liferay','JPA/hibernate','JSF/JSP'],
-        hired: false
+        hired: true
     }
 ];
