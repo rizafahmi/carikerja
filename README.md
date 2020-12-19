@@ -8,6 +8,7 @@ Yang diperlukan (versi minimum): [Node.js](https://nodejs.org) versi 10.
 
 ```shell
 git clone https://github.com/rizafahmi/carikerja.git
+cd carikerja/
 npm install
 npm run dev
 ```
