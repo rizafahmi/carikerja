@@ -4,10 +4,10 @@ module.exports = [{
         role: "Fullstack Developer",
         location: "Surabaya",
         social_media: {
-                Linkedin: "https://www.linkedin.com/in/prana-wijaya/",
+                Linkedin: "https://www.linkedin.com/in/tony-sanjaya-11836042/",
                 Github: "https://github.com/sanjayatony",
         },
-        tech_stack: ["VueJS", "NuxtJS", "Tailwind CSS", "Codeigniter", "Php"],
+        tech_stack: ["WordPress", "PHP", "Tailwind CSS", "VueJS", "Shopify"],
         hired: false,
    },{
         name: 'Prana Apsara Wijaya',
@@ -18,8 +18,8 @@ module.exports = [{
                         Linkedin: 'https://www.linkedin.com/in/andriyantorifki',
                         Github: 'https://github.com/pranahonk',
         },
-        tech_stack: ['react', 'react native', 'javascript', 'css','nodejs'],
-        hired: false
+        tech_stack: ["VueJS", "NuxtJS", "Tailwind CSS", "Codeigniter", "Php"],
+        hired: false,
     },{
         name: 'Rifki Andriyanto',
         status: 'Fulltime',
