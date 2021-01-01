@@ -240,5 +240,17 @@ module.exports = [{
         },
         tech_stack: ['Java','Spring Framework','Liferay','JPA/hibernate','JSF/JSP'],
         hired: true
+    },
+    {
+        name: 'Panji Asmoro',
+        status: 'Fulltime',
+        role: 'Front End Developer',
+        location: 'Depok',
+        social_media: {
+            Linkedin: 'https://www.linkedin.com/in/panjiasmoro/',
+            Github: 'https://github.com/panjiasmoroart'
+        },
+        tech_stack: ['HTML5', 'CSS3', 'SASS', 'JavaScript', 'ReactJS', 'PHP', 'Ruby'],
+        hired: false
     }
 ];
