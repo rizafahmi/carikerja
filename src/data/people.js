@@ -1,4 +1,15 @@
 module.exports = [{
+        name: "Doddy Rizal Novianto",
+        status: "Fulltime, Remote",
+        role: "Frontend Developer",
+        location: "Jakarta, Tangerang",
+        social_media: {
+                Linkedin: "https://www.linkedin.com/in/doddy-rizal-novianto-559269157/",
+                Github: "https://github.com/drzaln",
+        },
+        tech_stack: ["react-native", "react", "javascript"],
+        hired: false,
+   },{
         name: "Tony Sanjaya",
         status: "Fulltime, Remote",
         role: "Fullstack Developer",
