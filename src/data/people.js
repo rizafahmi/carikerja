@@ -216,6 +216,19 @@ module.exports = [{
         hired: false
     },
     {
+        name: 'Arian Saputra',
+        status: 'Fulltime, Remote',
+        role: 'Backend Developer',
+        location: 'Mataram',
+        social_media: {
+            Linkedin: 'https://www.linkedin.com/in/rhyanz46/',
+            Github: 'https://github.com/Rhyanz46/',
+            Website: 'https://ariansaputra.com/'
+        },
+        tech_stack: ['Flask', 'Fastapi', 'Mysql', 'Redis', 'Docker'],
+        hired: false
+    },
+    {
         name: 'Zainal Arifin',
         status: 'Fulltime, Remote',
         role: 'Software Developer',
