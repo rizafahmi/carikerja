@@ -263,5 +263,18 @@ module.exports = [{
         },
         tech_stack: ['HTML5', 'CSS3', 'SASS', 'JavaScript', 'ReactJS', 'PHP', 'Ruby'],
         hired: false
+    },
+    {
+        name: 'Imam Riyadi',
+        status: 'Fulltime, Remote',
+        role: 'Software Developer',
+        location: 'Jakarta',
+        social_media: {
+            Linkedin: 'https://linkedin.com/in/imam-riyadi',
+            Github: 'https://github.com/imamriyadi',
+            Website: 'https://imamriyadi.com'
+        },
+        tech_stack: ['JavaScript', 'SASS', 'Java Android ', 'PHP','C#'],
+        hired: false
     }
 ];
