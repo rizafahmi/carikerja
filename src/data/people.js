@@ -297,4 +297,105 @@ module.exports = [
     ],
     hired: false,
   },
+  {
+    name: 'Bahyu Sanciko',
+    status: 'Fulltime, Remote',
+    role: 'Full Stack Developer',
+    location: 'Jakarta',
+    social_media: {
+      Linkedin: 'https://www.linkedin.com/in/bahyu-sanciko/',
+      Github: 'https://github.com/bahyusanciko',
+      Blog: 'https://bahyusanciko.github.io/',
+      Twitter: 'https://twitter.com/bhysnck',
+    },
+    tech_stack: ['Laravel', 'Codeigniter', 'Angular', 'Ionic'],
+    hired: true
+  },
+  {
+    name: 'Adzanny Akbar',
+    status: 'Fulltime, Remote',
+    role: 'Full Stack Developer',
+    location: 'Jakarta',
+    social_media: {
+      Linkedin: 'https://www.linkedin.com/in/adzannyaa/',
+      Github: 'https://gitlab.com/zanisis'
+    },
+    tech_stack: ['React', 'React Native', 'Flutter', 'NodeJS'],
+    hired: true
+  },
+  {
+    name: 'Ilham Bintang',
+    status: 'Fulltime',
+    role: 'Machine Learning Engineer',
+    location: 'Jakarta',
+    social_media: {
+      Linkedin: 'https://www.linkedin.com/in/nullphantom/',
+      Github: 'https://github.com/nullphantom',
+      Blog: 'https://abin.web.id/'
+    },
+    tech_stack: ['Tensorflow', 'Python', 'Elasticsearch'],
+    hired: false
+  },
+  {
+    name: 'Arian Saputra',
+    status: 'Fulltime, Remote',
+    role: 'Backend Developer',
+    location: 'Mataram',
+    social_media: {
+      Linkedin: 'https://www.linkedin.com/in/rhyanz46/',
+      Github: 'https://github.com/Rhyanz46/',
+      Website: 'https://ariansaputra.com/'
+    },
+    tech_stack: ['Flask', 'Fastapi', 'Mysql', 'Redis', 'Docker'],
+    hired: false
+  },
+  {
+    name: 'Zainal Arifin',
+    status: 'Fulltime, Remote',
+    role: 'Software Developer',
+    location: 'Bandung',
+    social_media: {
+      Linkedin: 'https://www.linkedin.com/in/zainalar/',
+      Github: 'https://github.com/zainalarifinid',
+    },
+    tech_stack: ['JavaScript', 'TypeScript', 'NodeJS', 'PHP', 'VueJS'],
+    hired: false
+  },
+  {
+    name: 'Hasobi Roid Radityo',
+    status: 'Fulltime, Remote',
+    role: 'DevOps Engineer, Software Engineer',
+    location: 'Surakarta',
+    social_media: {
+      Linkedin: 'https://www.linkedin.com/in/hasobi/',
+      Github: 'https://github.com/hasobi',
+    },
+    tech_stack: ['Python', 'JavaScript', 'Go', 'Terraform'],
+    hired: false
+  },
+  {
+    name: 'Anton Purwanto',
+    status: 'Fulltime, Remote',
+    role: 'Java Developer, Software Engineer',
+    location: 'Tangerang Selatan',
+    social_media: {
+      Linkedin: 'https://www.linkedin.com/in/anton-purwanto-268a4050',
+      Github: 'https://github.com/anteknik',
+      AboutMe: 'https://about.me/antonpurwanto'
+    },
+    tech_stack: ['Java', 'Spring Framework', 'Liferay', 'JPA/hibernate', 'JSF/JSP'],
+    hired: true
+  },
+  {
+    name: 'Panji Asmoro',
+    status: 'Fulltime',
+    role: 'Front End Developer',
+    location: 'Depok',
+    social_media: {
+      Linkedin: 'https://www.linkedin.com/in/panjiasmoro/',
+      Github: 'https://github.com/panjiasmoroart'
+    },
+    tech_stack: ['HTML5', 'CSS3', 'SASS', 'JavaScript', 'ReactJS', 'PHP', 'Ruby'],
+    hired: false
+  }
 ];
