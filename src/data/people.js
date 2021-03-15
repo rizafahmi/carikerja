@@ -422,5 +422,18 @@ module.exports = [
     },
     tech_stack: ['JavaScript', 'SASS', 'Java Android ', 'PHP', 'C#'],
     hired: false
+  },
+  {
+    name: 'Bambang Mohammad Azhari',
+    status: 'Fulltime, Remote',
+    role: 'Software Developer',
+    location: 'Tasikmalaya',
+    social_media: {
+      Linkedin: 'https://www.linkedin.com/in/bambang-m-azhari-5280a5192/',
+      Github: 'https://github.com/illusi03',
+      Website: 'https://azhari.my.id'
+    },
+    tech_stack: ['Typescript', 'JavaScript', 'PHP', 'Laravel','React'],
+    hired: false
   }
 ];
