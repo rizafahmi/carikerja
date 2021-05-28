@@ -435,5 +435,18 @@ module.exports = [
     },
     tech_stack: ['Typescript', 'JavaScript', 'PHP', 'Laravel','React'],
     hired: false
+  },
+  {
+    name: 'Muhammad Luthfi Azzammi',
+    status: 'Fulltime, Onsite',
+    role: 'Software Developer',
+    location: 'Bekasi',
+    social_media: {
+      Linkedin: 'https://www.linkedin.com/in/azzammi/',
+      Github: 'https://github.com/Azzammi',
+      Website: 'https://azzammi.wordpress.com'
+    },
+    tech_stack: ['JavaScript', 'PHP', 'Laravel','Vue','Tailwind'],
+    hired: false
   }
 ];
