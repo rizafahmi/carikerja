@@ -448,5 +448,17 @@ module.exports = [
     },
     tech_stack: ['JavaScript', 'PHP', 'Laravel','Vue','Tailwind'],
     hired: false
-  }
+  },
+  {
+    name: "Imam Mufiid",
+    status: "Fulltime, Internship, Remote",
+    role: "Junior Android Engineer",
+    location: "Jakarta, Bandung, Surabaya",
+    social_media: {
+      Linkedin: "https://www.linkedin.com/in/imammufiid/",
+      Github: "https://github.com/imufiid"
+    },
+    tech_stack: ["Kotlin"],
+    hired: false,
+  },
 ];
