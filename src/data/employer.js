@@ -125,4 +125,11 @@ module.exports = [
     description: 
       'Traveloka adalah perusahaan travel terkemuka di Asia Tenggara yang menyediakan berbagai kebutuhan perjalanan dalam satu platform, memungkinkan Anda untuk menciptakan momen bersama orang-orang terkasih. Kami menawarkan tiket pesawat, hotel, tiket kereta, paket pesawat + hotel, aktivitas & rekreasi, produk-produk konektivitas, layanan finansial, dan asuransi.'
   },
+  {
+    name: 'Boer Technology (Btech)',
+    category: 'cloud-system-integrator',
+    link: 'https://www.linkedin.com/company/btechpt',
+    description: 
+      'Btech adalah perusahaan Cloud System Integrator yang menyediakan layanan professional seperti Consulting, Implementation, Maintenance Support, dan Managed Services untuk berbagai sektor industri. Btech juga menyediakan training professional materi-materi yang berkaitan dengan Cloud, Security dan DevOps.'
+  },
 ];
