@@ -21,6 +21,27 @@
     }
   }
 
+  let badges = [];
+  function getBadgeStyle(text) {
+    const existingBadge = badges.find((badge) => badge.text === text.toLowerCase());
+    if (existingBadge) {
+      return existingBadge.style;
+    }
+
+    const red = (Math.random() * 256) | 0;
+    const green = (Math.random() * 256) | 0;
+    const blue = (Math.random() * 256) | 0;
+
+    const yiq = (red * 299 + green * 587 + blue * 114) / 1000;
+    const textColor = yiq >= 128 ? "#000" : "#fff";
+
+    const style = `background-color: rgb(${red}, ${green}, ${blue}); color: ${textColor}`;
+
+    badges.push({text: text.toLowerCase(), style});
+
+    return style;
+  }
+
   onMount(() => {
     getSortedPeople()
   })
@@ -44,93 +65,6 @@
     border-radius: 0.5em;
     margin-bottom: 0.25em;
     display: inline-block;
-  }
-  .react {
-    background-color: #61dafb;
-  }
-  .angular {
-    background-color: #c70031;
-    color: #fff;
-  }
-  .react-native {
-    background-color: #282c34;
-    color: #61dafb;
-  }
-  .flutter {
-    background-color: #007ae4;
-    color: #fff;
-  }
-  .ionic{
-    background-color: #e3f1fc;
-    color: #408ff8
-  }
-  .typescript {
-    background-color: #027acc;
-    color: #fff;
-  }
-  .devops {
-    background-color: #f8981d;
-  }
-  .golang {
-    background-color: #000;
-    color: #fff;
-  }
-  .nodejs {
-    background-color: #7ab361;
-  }
-  .php {
-    background-color: #777bb3;
-  }
-  .codeigniter{
-    background-color: #e1451f;
-    color: #fff
-  }
-  .vuejs {
-    background-color: #68B181;
-    color: #384A5D;
-  }
-  .laravel {
-    background-color: red;
-  }
-  .mysql {
-    background-color: #E38600;
-    color: #176B94;
-  }
-  .redis {
-    background-color: #A42122;
-    color: #fff;
-  }
-  .elasticsearch {
-    background-color: #FDD10C;
-    color: #25BBB1;
-  }
-  .elasticsearch {
-    background-color: #FDD10C;
-    color: #25BBB1;
-  }
-  .python {
-    background-color: #FDE561;
-    color: #396EA4;
-  }
-  .odoo {
-    background-color: #888888;
-    color: #9C5789;
-  }
-  .postgresql {
-    background-color: #234163;
-    color: #fff;
-  }
-  .mongodb {
-    background-color: #429544;
-    color: #fff;
-  }
-  .tensorflow{
-    background-color: #ff7a20;
-    color: #fff;
-  }
-  .javascript{
-    background-color: #fade3c;
-    color: #000;
   }
   .hired {
     background-color: rgba(21, 21, 21, 0.75);
@@ -188,7 +122,7 @@
           <li>
             ⚙️
             {#each p.tech_stack as tech}
-              <span class="badge {tech.toLowerCase()}">{tech}</span>
+              <span class="badge" style={getBadgeStyle(tech)}>{tech}</span>
             {/each}
           </li>
         {/if}
