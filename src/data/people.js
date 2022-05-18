@@ -474,4 +474,17 @@ module.exports = [
     tech_stack: ["Laravel", "Codeigniter", "React",, "Flutter", "WordPress"],
     hired: false,
   },
+  {
+    name: "Andri Desmana Putra Wijaya",
+    status: "Fulltime, Remote",
+    role: "Backend Engineer",
+    location: "Jakarta",
+    social_media: {
+      Linkedin: "https://www.linkedin.com/in/andri-desmana/",
+      Github: "https://github.com/andes2912",
+      Website: 'https://andridesmana.pw'
+    },
+    tech_stack: ["Laravel"],
+    hired: false,
+  },
 ];
