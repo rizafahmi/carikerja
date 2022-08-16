@@ -275,7 +275,7 @@ module.exports = [
       "JPA/hibernate",
       "JSF/JSP",
     ],
-    hired: true,
+    hired: false,
   },
   {
     name: "Panji Asmoro",
