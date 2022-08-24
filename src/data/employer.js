@@ -132,4 +132,10 @@ module.exports = [
     description: 
       'Btech adalah perusahaan Cloud System Integrator yang menyediakan layanan professional seperti Consulting, Implementation, Maintenance Support, dan Managed Services untuk berbagai sektor industri. Btech juga menyediakan training professional materi-materi yang berkaitan dengan Cloud, Security dan DevOps.'
   },
+  {
+    name: 'Telkom Indonesia',
+    category: 'information-technology',
+    link: 'https://recruitmentdigital.telkom.co.id/',
+    description: 'Telkom Indonesia adalah salah satu Badan Usaha Milik Negara (BUMN) yang bergerak di bidang jasa layanan teknologi informasi dan komunikasi (TIK) dan jaringan telekomunikasi di Indonesia.',
+  },
 ];
