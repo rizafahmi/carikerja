@@ -474,4 +474,17 @@ module.exports = [
     tech_stack: ["Laravel", "Codeigniter", "React",, "Flutter", "WordPress"],
     hired: false,
   },
+  {
+    name: "Andrian Fadhilla",
+    status: "Freelance",
+    role: "ReactJS Developer",
+    location: "Tambun Selatan, Bekasi",
+    social_media: {
+      Linkedin: "https://www.linkedin.com/in/andrianfaa/",
+      Github: "https://github.com/andrianfaa",
+      Website: 'https://www.andriann.co'
+    },
+    tech_stack: ["ReactJS", "Express", "NodeJS", "MongoDB", "Typescript"],
+    hired: false,
+  },
 ];
