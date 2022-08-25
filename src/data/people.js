@@ -475,6 +475,19 @@ module.exports = [
     hired: false,
   },
   {
+    name: "Andri Desmana Putra Wijaya",
+    status: "Fulltime, Remote",
+    role: "Backend Engineer",
+    location: "Jakarta",
+    social_media: {
+      Linkedin: "https://www.linkedin.com/in/andri-desmana/",
+      Github: "https://github.com/andes2912",
+      Website: 'https://andridesmana.pw'
+    },
+    tech_stack: ["Laravel"],
+    hired: false,
+  },
+  {
     name: "Andrian Fadhilla",
     status: "Freelance",
     role: "ReactJS Developer",
@@ -485,6 +498,5 @@ module.exports = [
       Website: 'https://www.andriann.co'
     },
     tech_stack: ["ReactJS", "Express", "NodeJS", "MongoDB", "Typescript"],
-    hired: false,
   },
 ];
