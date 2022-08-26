@@ -7,8 +7,30 @@
   getAllLocation = [...new Set(getAllLocation)].sort((a, b) => a.localeCompare(b)) // get unique location and filter by alphabetically
 
   function getSortedPeople() {
-    sortedPeople = people.sort((a, b) => a.name > b.name);
-    sortedPeople = sortedPeople.sort((a, b) => a.hired - b.hired);
+    // previous sorting doesn't work as expected
+    sortedPeople = people.sort((a, b) => {
+      let firstPersonName = a.name.replace(/\s/, "").toLowerCase();
+      let secondPersonName = b.name.replace(/\s/, "").toLowerCase();
+
+      if (firstPersonName < secondPersonName) {
+        return -1;
+      } else if (firstPersonName > secondPersonName) {
+        return 1;
+      } else {
+        return 0;
+      }
+    });
+    
+    // remove duplicate data and filter only unhired job seeker
+    sortedPeople = sortedPeople.filter((person, index, self) => {
+      // temporarily filtering duplicate data using name and Linkedin (since it's unique)
+      return (self.findIndex(predicateVariable => {
+        return (
+          (predicateVariable.name.replace(/\s/, "").toLowerCase() == person.name.replace(/\s/, "").toLowerCase()) && 
+          (predicateVariable.social_media["Linkedin"] == person.social_media["Linkedin"])
+        );
+      }) == index) && !person.hired;
+    });
   }
 
   // handle filter location
@@ -23,6 +45,7 @@
 
   let badges = [];
   function getBadgeStyle(text) {
+    if (!text) return `background-color: #ddd; color: #000;`;
     const existingBadge = badges.find((badge) => badge.text === text.toLowerCase());
     if (existingBadge) {
       return existingBadge.style;
@@ -118,7 +141,7 @@
         <li>⏲️ {p.status}</li>
         <li>💻 {p.role}</li>
         <li>📍 {p.location}</li>
-        {#if p.tech_stack.length > 0}
+        {#if p.tech_stack.length != 0}
           <li>
             ⚙️
             {#each p.tech_stack as tech}
