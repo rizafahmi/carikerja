@@ -45,7 +45,7 @@
 
   let badges = [];
   function getBadgeStyle(text) {
-    if (!text) return `background-color: #ddd; color: #000;`;
+    if (!text) return;
     const existingBadge = badges.find((badge) => badge.text === text.toLowerCase());
     if (existingBadge) {
       return existingBadge.style;
