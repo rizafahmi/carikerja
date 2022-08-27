@@ -499,4 +499,16 @@ module.exports = [
     },
     tech_stack: ["ReactJS", "Express", "NodeJS", "MongoDB", "Typescript"],
   },
+  {
+    name: 'Wahyu Rahmana',
+    status: 'Fulltime, Remote',
+    role: 'Backend Developer',
+    location: 'Sumbawa',
+    social_media: {
+      Linkedin: 'https://www.linkedin.com/in/wahyu-rahmana/',
+      Github: 'https://github.com/wahyurahmana',
+      Website: 'http://www.indolearning.co.id/'
+    },
+    tech_stack: ['ExpressJs', 'Nodejs', 'Postgresql', 'Redis', 'Vuejs', 'Reactjs', 'MongoDB', 'Hapi Framework', 'AWS Cloud', 'Sequelize']
+  }
 ];
