@@ -511,4 +511,16 @@ module.exports = [
     tech_stack: ["PHP", "Laravel", "VueJS", "NodeJS", "MySQL"],
     hired: false,
   },
+  {
+    name: "Benny Rahmat",
+    status: "Fulltime, Remote",
+    role: "Backend Developer",
+    location: "Banjarmasin",
+    social_media: {
+      Linkedin: "https://www.linkedin.com/in/akunbeben",
+      Github: "https://github.com/akunbeben",
+    },
+    tech_stack: ["PHP", "Laravel", "C#", ".NET", ".NET Core"],
+    hired: false,
+  }
 ];
