@@ -500,6 +500,30 @@ module.exports = [
     tech_stack: ["ReactJS", "Express", "NodeJS", "MongoDB", "Typescript"],
   },
   {
+    name: "Nugroho Dewantoro",
+    status: "Fulltime, Remote",
+    role: "Full Stack Developer",
+    location: "Jakarta",
+    social_media: {
+      Linkedin: "https://www.linkedin.com/in/nugroho-dewantoro-31951ba5/",
+      Github: "https://github.com/wisnunugroho21",
+    },
+    tech_stack: ["PHP", "Laravel", "VueJS", "NodeJS", "MySQL"],
+    hired: false,
+  },
+  {
+    name: "Benny Rahmat",
+    status: "Fulltime, Remote",
+    role: "Backend Developer",
+    location: "Banjarmasin",
+    social_media: {
+      Linkedin: "https://www.linkedin.com/in/akunbeben",
+      Github: "https://github.com/akunbeben",
+    },
+    tech_stack: ["PHP", "Laravel", "C#", ".NET", ".NET Core"],
+    hired: false,
+  },
+  {
     name: 'Wahyu Rahmana',
     status: 'Fulltime, Remote',
     role: 'Backend Developer',
@@ -509,6 +533,7 @@ module.exports = [
       Github: 'https://github.com/wahyurahmana',
       Website: 'http://www.indolearning.co.id/'
     },
-    tech_stack: ['ExpressJs', 'Nodejs', 'Postgresql', 'Redis', 'Vuejs', 'Reactjs', 'MongoDB', 'Hapi Framework', 'AWS Cloud', 'Sequelize']
-  }
+    tech_stack: ['ExpressJs', 'Nodejs', 'Postgresql', 'Redis', 'Vuejs', 'Reactjs', 'MongoDB', 'Hapi Framework', 'AWS Cloud', 'Sequelize'],
+    hired: false,
+  },
 ];
