@@ -499,4 +499,16 @@ module.exports = [
     },
     tech_stack: ["ReactJS", "Express", "NodeJS", "MongoDB", "Typescript"],
   },
+  {
+    name: "Nugroho Dewantoro",
+    status: "Fulltime, Remote",
+    role: "Full Stack Developer",
+    location: "Jakarta",
+    social_media: {
+      Linkedin: "https://www.linkedin.com/in/nugroho-dewantoro-31951ba5/",
+      Github: "https://github.com/wisnunugroho21",
+    },
+    tech_stack: ["PHP", "Laravel", "VueJS", "NodeJS", "MySQL"],
+    hired: false,
+  },
 ];
