@@ -6,6 +6,7 @@
   let sortedPeople = []
   let getAllLocation = people.map(person => person.location)
   getAllLocation = [...new Set(getAllLocation)].sort((a, b) => a.localeCompare(b)) // get unique location and filter by alphabetically
+  let getAllTechStack = [...new Set(people.map(person => person.tech_stack.map(tech => tech.toUpperCase())).flat())].sort()
 
   function getSortedPeople() {
     // previous sorting doesn't work as expected
@@ -34,34 +35,46 @@
     });
   }
 
-  // handle filter location
-  function handleLocationChange(e) {
-    const value = e.detail ? e.detail.value : null
-    if (!value) getSortedPeople()
-    else {
-      getSortedPeople()
-      sortedPeople = sortedPeople.filter(people => people.location === value)
-    }
+  // Store filter data to implement multiple filtering
+  const filter = {
+    location: '',
+    techStacks: []
   }
 
-  let getAllTechStack = [...new Set(people.map(person => person.tech_stack.map(tech => tech.toUpperCase())).flat())].sort()
-
-  function handleStackChange(e) {
-    const values = e.detail ? e.detail.map(value => value.value) : []
+  // Filter function triggered by any filter changes
+  function filterPeople() {
     getSortedPeople()
 
-    if (!values.length) return
+    if (filter.location) {
+      sortedPeople = sortedPeople.filter(person => person.location === filter.location)
+    }
 
-    sortedPeople = sortedPeople.filter(person => {
+    if (filter.techStacks.length) {
+      sortedPeople = sortedPeople.filter(person => {
       let isExist = false
-      values.some(value => {
-        if (person.tech_stack.map(stack => stack.toUpperCase()).includes(value)) {
+      filter.techStacks.some(techStack => {
+        if (person.tech_stack.map(stack => stack.toUpperCase()).includes(techStack)) {
           isExist = true
           return true
         }
       })
       return isExist
     })
+    }
+  }
+
+  function handleLocationChange(e) {
+    const location = e.detail ? e.detail.value : null
+    filter.location = location
+
+    filterPeople()
+  }
+
+  function handleStackChange(e) {
+    const techStacks = e.detail ? e.detail.map(value => value.value) : []
+    filter.techStacks = techStacks
+
+    filterPeople()
   }
 
 
