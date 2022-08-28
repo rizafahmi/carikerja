@@ -6,7 +6,7 @@
   let sortedPeople = []
   let getAllLocation = people.map(person => person.location)
   getAllLocation = [...new Set(getAllLocation)].sort((a, b) => a.localeCompare(b)) // get unique location and filter by alphabetically
-  let getAllTechStack = [...new Set(people.map(person => person.tech_stack.map(tech => tech.toUpperCase())).flat())].sort()
+  let getAllTechStack = [...new Set(people.filter(person => !person.hired).map(person => person.tech_stack.map(tech => tech.toUpperCase())).flat())].sort()
 
   function getSortedPeople() {
     // previous sorting doesn't work as expected
