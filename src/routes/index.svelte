@@ -1,10 +1,12 @@
 <script>
+  import Select from 'svelte-select';
   import { onMount } from 'svelte';
   import people from "../data/people.js";
 
   let sortedPeople = []
   let getAllLocation = people.map(person => person.location)
   getAllLocation = [...new Set(getAllLocation)].sort((a, b) => a.localeCompare(b)) // get unique location and filter by alphabetically
+  let getAllTechStack = [...new Set(people.filter(person => !person.hired).map(person => person.tech_stack.map(tech => tech.toUpperCase())).flat())].sort()
 
   function getSortedPeople() {
     // previous sorting doesn't work as expected
@@ -33,15 +35,48 @@
     });
   }
 
-  // handle filter location
-  function handleLocationChange(e) {
-    const value = e.target.value
-    if (!value) getSortedPeople()
-    else {
-      getSortedPeople()
-      sortedPeople = sortedPeople.filter(people => people.location === value)
+  // Store filter data to implement multiple filtering
+  const filter = {
+    location: '',
+    techStacks: []
+  }
+
+  // Filter function triggered by any filter changes
+  function filterPeople() {
+    getSortedPeople()
+
+    if (filter.location) {
+      sortedPeople = sortedPeople.filter(person => person.location === filter.location)
+    }
+
+    if (filter.techStacks.length) {
+      sortedPeople = sortedPeople.filter(person => {
+      let isExist = false
+      filter.techStacks.some(techStack => {
+        if (person.tech_stack.map(stack => stack.toUpperCase()).includes(techStack)) {
+          isExist = true
+          return true
+        }
+      })
+      return isExist
+    })
     }
   }
+
+  function handleLocationChange(e) {
+    const location = e.detail ? e.detail.value : null
+    filter.location = location
+
+    filterPeople()
+  }
+
+  function handleStackChange(e) {
+    const techStacks = e.detail ? e.detail.map(value => value.value) : []
+    filter.techStacks = techStacks
+
+    filterPeople()
+  }
+
 
   let badges = [];
   function getBadgeStyle(text) {
@@ -99,16 +134,13 @@
     font-weight: 870;
   }
 
-  .filter-location-wrapper {
-    display: grid;
-    justify-content: flex-end;
-    align-items: center;
-    grid-template-columns: repeat(2, max-content);
-    grid-column-gap: 8px;
+  .filter {
+    display: flex;
+    gap: 2rem;
   }
 
-  .filter-location-wrapper select {
-    padding: 3px 40px 3px 0;
+  .filter > div {
+    flex: 1 1 0%;
   }
 </style>
 
@@ -124,14 +156,15 @@
   Sekarang, kami buat jadi mudah! Berikut adalah daftar engineer keren yang
   terkena dampak pemutusan hubungan kerja karena pandemi.
 </p>
-<div class="filter-location-wrapper">
-  <span>Cari Berdasarkan Lokasi</span>
-  <select on:change={handleLocationChange}>
-    <option value="">Semua Lokasi</option>
-    {#each getAllLocation as location}
-      <option value={location}>{location}</option>
-    {/each}
-  </select>
+<div class="filter">
+  <div>
+    <span>Cari Berdasarkan Tech Stack</span>
+    <Select on:select={handleStackChange} items={getAllTechStack} isMulti={true} />
+  </div>
+  <div>
+    <span>Cari Berdasarkan Lokasi</span>
+    <Select on:select={handleLocationChange} on:clear={handleLocationChange} items={getAllLocation} />
+  </div>
 </div>
 <div>
   {#each sortedPeople as p}
