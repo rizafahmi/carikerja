@@ -1,4 +1,5 @@
 <script>
+  import Select from 'svelte-select';
   import { onMount } from 'svelte';
   import people from "../data/people.js";
 
@@ -42,6 +43,27 @@
       sortedPeople = sortedPeople.filter(people => people.location === value)
     }
   }
+
+  let getAllTechStack = [...new Set(people.map(person => person.tech_stack.map(tech => tech.toUpperCase())).flat())].sort()
+
+  function handleStackChange(e) {
+    const values = e.detail ? e.detail.map(value => value.value) : []
+    getSortedPeople()
+
+    if (!values.length) return
+
+    sortedPeople = sortedPeople.filter(person => {
+      let isExist = false
+      values.some(value => {
+        if (person.tech_stack.map(stack => stack.toUpperCase()).includes(value)) {
+          isExist = true
+          return true
+        }
+      })
+      return isExist
+    })
+  }
+
 
   let badges = [];
   function getBadgeStyle(text) {
@@ -132,6 +154,10 @@
       <option value={location}>{location}</option>
     {/each}
   </select>
+</div>
+<div>
+  <span>Cari Berdasarkan Tech Stack</span>
+  <Select on:select={handleStackChange} items={getAllTechStack} isMulti={true}></Select>
 </div>
 <div>
   {#each sortedPeople as p}
