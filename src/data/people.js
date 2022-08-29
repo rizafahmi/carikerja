@@ -546,7 +546,7 @@ module.exports = [
       Github: "https://github.com/kangnikol",
     },
     tech_stack: ["PHP", "Laravel", "React", "Next.JS", "Tailwindcss", "SASS", "HTML5", "CSS3"],
-    hired: true,
+    hired: false,
   },
   {
     name: "Pramudya Arya Wicaksana",
