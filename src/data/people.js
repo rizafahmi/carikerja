@@ -536,4 +536,28 @@ module.exports = [
     tech_stack: ['ExpressJs', 'Nodejs', 'Postgresql', 'Redis', 'Vuejs', 'Reactjs', 'MongoDB', 'Hapi Framework', 'AWS Cloud', 'Sequelize'],
     hired: false,
   },
+  {
+    name: "Nicholas Alvi Saputra",
+    status: "Fulltime, Remote",
+    role: "Full Stack Developer",
+    location: "Bandung",
+    social_media: {
+      Linkedin: "https://www.linkedin.com/in/nicholasalvis",
+      Github: "https://github.com/kangnikol",
+    },
+    tech_stack: ["PHP", "Laravel", "React", "Next.JS", "Tailwindcss", "SASS", "HTML5", "CSS3"],
+    hired: true,
+  },
+  {
+    name: "Pramudya Arya Wicaksana",
+    status: "Fulltime, Remote",
+    role: "Software Engineer, DevOps",
+    location: "Bandung",
+    social_media: {
+      Linkedin: "https://www.linkedin.com/in/ryawcksn",
+      Github: "https://github.com/RyaWcksn",
+    },
+    tech_stack: ["Go", "Redis", "NodeJS", "Typescript", "MongoDB", "GCP", "AWS", "Docker", "Kubernetes"],
+    hired: false,
+  }
 ];
