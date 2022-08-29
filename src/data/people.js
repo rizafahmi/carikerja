@@ -522,5 +522,17 @@ module.exports = [
     },
     tech_stack: ["PHP", "Laravel", "C#", ".NET", ".NET Core"],
     hired: false,
+  },
+  {
+    name: "Pramudya Arya Wicaksana",
+    status: "Fulltime, Remote",
+    role: "Software Engineer, DevOps",
+    location: "Bandung",
+    social_media: {
+      Linkedin: "https://www.linkedin.com/in/ryawcksn",
+      Github: "https://github.com/RyaWcksn",
+    },
+    tech_stack: ["Go", "Redis", "NodeJS", "Typescript", "MongoDB", "GCP", "AWS", "Docker", "Kubernetes"],
+    hired: false,
   }
 ];
