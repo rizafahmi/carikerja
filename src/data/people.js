@@ -524,6 +524,18 @@ module.exports = [
     hired: false,
   },
   {
+    name: "Nicholas Alvi Saputra",
+    status: "Fulltime, Remote",
+    role: "Full Stack Developer",
+    location: "Bandung",
+    social_media: {
+      Linkedin: "https://www.linkedin.com/in/nicholasalvis",
+      Github: "https://github.com/kangnikol",
+    },
+    tech_stack: ["PHP", "Laravel", "React", "Next.JS", "Tailwindcss", "SASS", "HTML5", "CSS3"],
+    hired: true,
+  },
+  {
     name: "Pramudya Arya Wicaksana",
     status: "Fulltime, Remote",
     role: "Software Engineer, DevOps",
