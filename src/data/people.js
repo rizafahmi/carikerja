@@ -559,5 +559,17 @@ module.exports = [
     },
     tech_stack: ["Go", "Redis", "NodeJS", "Typescript", "MongoDB", "GCP", "AWS", "Docker", "Kubernetes"],
     hired: false,
+  },
+  {
+    name: "Ashandi Leonadi",
+    status: "Fulltime, Remote",
+    role: "Frontend Engineer",
+    location: "Jakarta",
+    social_media: {
+      Linkedin: "https://www.linkedin.com/in/ashandi-leonadi-509374176/",
+      Github: "https://github.com/ashandileo",
+    },
+    tech_stack: ["React.js", "Next.js", "Javascript", "Typescript", "SASS", "Tailwindcss", "HTML5", "CSS3"],
+    hired: true,
   }
 ];
