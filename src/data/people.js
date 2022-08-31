@@ -556,6 +556,7 @@ module.exports = [
     social_media: {
       Linkedin: "https://www.linkedin.com/in/nicholasalvis",
       Github: "https://github.com/kangnikol",
+      Website: "https://kangnikol.xyz",
     },
     tech_stack: ["PHP", "Laravel", "React", "Next.JS", "Tailwindcss", "SASS", "HTML5", "CSS3"],
     hired: false,
