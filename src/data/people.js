@@ -1,4 +1,16 @@
 module.exports = [
+{
+    name: "Ibnu Nugroho",
+    status: "Fulltime, Remote",
+    role: "System Analysis, Technical Leader",
+    location: "Jakarta, Cirebon",
+    social_media: {
+      Linkedin: "https://www.linkedin.com/in/ibnunugroho",
+      Github: "https://github.com/1bnunugroho",
+    },
+    tech_stack: [".Net", ".NetCore", "Flutter", "C#", "PHP"],
+    hired: true,
+  },
   {
     name: "Erwin Rahayu",
     status: "Fulltime, Remote",
