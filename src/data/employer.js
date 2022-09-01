@@ -138,4 +138,10 @@ module.exports = [
     link: 'https://recruitmentdigital.telkom.co.id/',
     description: 'Telkom Indonesia adalah salah satu Badan Usaha Milik Negara (BUMN) yang bergerak di bidang jasa layanan teknologi informasi dan komunikasi (TIK) dan jaringan telekomunikasi di Indonesia.',
   },
+  {
+    name: 'Bobobox',
+    category: 'online-travel-agent',
+    link: 'https://glints.com/id/en/companies/pt-bobobox-mitra-indonesia/00e32ac6-95b0-4723-8dc2-f3a32f1d884d',
+    description: 'Bobobox is Indonesia\'s hottest capsule hotel franchise startup in Bandung, the accomodation service combined with technology and IoT for smart travelers and millenial adventurers. Currently remote working (WFA) is available for Product & Tech Team.',
+  },
 ];
