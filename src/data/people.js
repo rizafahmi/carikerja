@@ -584,5 +584,17 @@ module.exports = [
     },
     tech_stack: ["React.js", "Next.js", "Javascript", "Typescript", "SASS", "Tailwindcss", "HTML5", "CSS3"],
     hired: true,
+  },
+  {
+    name: "Andreas Bilmar Harteveld Girsang ",
+    status: "Fulltime, Remote",
+    role: "Junior Back End Engineer",
+    location: "Medan",
+    social_media: {
+      Linkedin: "https://www.linkedin.com/in/andreasbilmar//",
+      Github: "https://github.com/roddeuss",
+    },
+    tech_stack: ["NodeJS", "Javacript","ExpressJs", "C#", "Postgresql", "MySQL", "SQL Server"],
+    hired: true,
   }
 ];
