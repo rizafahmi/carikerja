@@ -584,5 +584,17 @@ module.exports = [
     },
     tech_stack: ["React.js", "Next.js", "Javascript", "Typescript", "SASS", "Tailwindcss", "HTML5", "CSS3"],
     hired: true,
-  }
+  },
+    {
+    name: "Andrian Fauzi",
+    status: "Fulltime, Remote, Onsite",
+    role: "Full Stack Developer",
+    location: "Lampung",
+    social_media: {
+      Linkedin: "https://www.linkedin.com/in/andrian-fauzi/",
+      Github: "https://github.com/AndrianFauzi",
+    },
+    tech_stack: ["React.js", "Vue.js", "Nodejs", "Go", "Bootstrap", "PostgreSQL", "HTML5", "CSS3", "mongoDB"],
+    hired: false,
+    }
 ];
