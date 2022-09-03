@@ -12,6 +12,19 @@ module.exports = [
     hired: true,
   },
   {
+    name: "Nurizko Maulana",
+    status: "Fulltime, Remote",
+    role: "Software Engineer, ",
+    location: "Batam",
+    social_media: {
+      Linkedin: "https://www.linkedin.com/in/nurizko-maulana",
+      Github: "https://github.com/nurizko-maulana",
+      Blog: "https://www.nurizkomaulana.site/about",
+    },
+    tech_stack: ["NodeJS", "Flutter", "React", "Laravel", "PostgreSQL"],
+    hired: false,
+  },
+  {
     name: "Erwin Rahayu",
     status: "Fulltime, Remote",
     role: "Full Stack Developer, DevOps",
