@@ -12,6 +12,19 @@ module.exports = [
     hired: true,
   },
   {
+    name: "Nurizko Maulana",
+    status: "Fulltime, Remote",
+    role: "Software Engineer, ",
+    location: "Batam",
+    social_media: {
+      Linkedin: "https://www.linkedin.com/in/nurizko-maulana",
+      Github: "https://github.com/nurizko-maulana",
+      Blog: "https://www.nurizkomaulana.site/about",
+    },
+    tech_stack: ["NodeJS", "Flutter", "React", "Laravel", "PostgreSQL"],
+    hired: false,
+  },
+  {
     name: "Erwin Rahayu",
     status: "Fulltime, Remote",
     role: "Full Stack Developer, DevOps",
@@ -596,5 +609,17 @@ module.exports = [
     },
     tech_stack: ["React.js", "Vue.js", "Nodejs", "Go", "Bootstrap", "PostgreSQL", "HTML5", "CSS3", "mongoDB"],
     hired: false,
-    }
+    },
+  {
+    name: "Andreas Bilmar Harteveld Girsang ",
+    status: "Fulltime, Remote",
+    role: "Junior Back End Engineer",
+    location: "Medan",
+    social_media: {
+      Linkedin: "https://www.linkedin.com/in/andreasbilmar//",
+      Github: "https://github.com/roddeuss",
+    },
+    tech_stack: ["NodeJS", "Javacript","ExpressJs", "C#", "Postgresql", "MySQL", "SQL Server"],
+    hired: true,
+  }
 ];
