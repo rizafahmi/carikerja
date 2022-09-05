@@ -621,5 +621,17 @@ module.exports = [
     },
     tech_stack: ["NodeJS", "Javacript","ExpressJs", "C#", "Postgresql", "MySQL", "SQL Server"],
     hired: true,
+  },
+    {
+    name: "MOCH IQBAL AR RASYID ",
+    status: "Fulltime, Remote",
+    role: "Mid Full Stack Engineer",
+    location: "Malang",
+    social_media: {
+      Linkedin: "https://www.linkedin.com/in/moch-iqbal-ar-rasyid-1a6b71206/",
+      Github: "https://github.com/kingrootid",
+    },
+    tech_stack: ["NodeJS", "Javacript","ExpressJs", "TypeScript", "Postgresql", "MySQL", "NextJs", "ReactJs", "Bootstrap", "Cloud Egineering", "Tailwind"],
+    hired: true,
   }
 ];
