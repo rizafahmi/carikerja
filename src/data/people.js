@@ -587,6 +587,18 @@ module.exports = [
     hired: false,
   },
   {
+    name : "Muhammad Yandi Fenanda",
+    status: "Fulltime, Remote",
+    role: "Full Stack Developer",
+    location: "Bandung",
+    social_media: {
+      Linkedin: "https://www.linkedin.com/in/yandiio",
+      Github: "https://github.com/yandiio",
+    },
+    tech_stack: ["Flutter", "PHP", "Laravel", "Spring Boot", "Java", "PostgreSQL", "MySQL", "Kotlin Android"],
+    hired: true,
+  },
+  {
     name: "Ashandi Leonadi",
     status: "Fulltime, Remote",
     role: "Frontend Engineer",
