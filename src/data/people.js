@@ -486,19 +486,6 @@ module.exports = [
     tech_stack: ["Kotlin"],
     hired: false,
   },
-   {
-    name: "Muhammad Fadhila Abiyyu Faris",
-    status: "Fulltime, Internship, Remote",
-    role: "Full Stack Developer",
-    location: "Karawang",
-    social_media: {
-      Linkedin: "https://www.linkedin.com/in/muhammad-fadhila/",
-      Github: "https://github.com/fadhila36",
-      Website: 'https://fadhilaabiyyu.my.id'
-    },
-    tech_stack: ["Laravel", "Codeigniter", "React",, "Flutter", "WordPress"],
-    hired: false,
-  },
   {
     name: "Andri Desmana Putra Wijaya",
     status: "Fulltime, Remote",
@@ -633,5 +620,18 @@ module.exports = [
     },
     tech_stack: ["NodeJS", "Javacript","ExpressJs", "C#", "Postgresql", "MySQL", "SQL Server"],
     hired: true,
-  }
+  },
+  {
+    name: "Muhammad Fadhila Abiyyu Faris",
+    status: "Fulltime, Internship, Remote",
+    role: "Full Stack Developer",
+    location: "Karawang",
+    social_media: {
+      Linkedin: "https://www.linkedin.com/in/muhammad-fadhila/",
+      Github: "https://github.com/fadhila36",
+      Website: 'https://fadhilaabiyyu.my.id'
+    },
+    tech_stack: ["Laravel", "Codeigniter", "React", , "Flutter", "WordPress", "adonisJS", 'NodeJs'],
+    hired: false,
+  },
 ];
