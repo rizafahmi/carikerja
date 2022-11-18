@@ -1,9 +1,9 @@
-import { writable } from "svelte/store";
+import {writable} from "svelte/store";
 
 export let theme;
 
 if (typeof window !== "undefined") {
-  theme = writable(localStorage.getItem("theme") || 'Light');
+  theme = writable(localStorage.getItem("theme") || "Light");
 } else {
   theme = writable(null);
 }

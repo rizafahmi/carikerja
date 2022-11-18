@@ -1,12 +1,12 @@
 <script>
-  import Select from 'svelte-select';
-  import { onMount } from 'svelte';
+  import Select from "svelte-select";
+  import { onMount } from "svelte";
   import people from "../data/people.js";
 
-  let sortedPeople = []
-  let getAllLocation = people.map(person => person.location)
-  getAllLocation = [...new Set(getAllLocation)].sort((a, b) => a.localeCompare(b)) // get unique location and filter by alphabetically
-  let getAllTechStack = [...new Set(people.filter(person => !person.hired).map(person => person.tech_stack.map(tech => tech.toUpperCase())).flat())].sort()
+  let sortedPeople = [];
+  let getAllLocation = people.map(person => person.location);
+  getAllLocation = [...new Set(getAllLocation)].sort((a, b) => a.localeCompare(b)); // get unique location and filter by alphabetically
+  let getAllTechStack = [...new Set(people.filter(person => !person.hired).map(person => person.tech_stack.map(tech => tech.toUpperCase())).flat())].sort();
 
   function getSortedPeople() {
     // previous sorting doesn't work as expected
@@ -37,44 +37,44 @@
 
   // Store filter data to implement multiple filtering
   const filter = {
-    location: '',
+    location: "",
     techStacks: []
-  }
+  };
 
   // Filter function triggered by any filter changes
   function filterPeople() {
-    getSortedPeople()
+    getSortedPeople();
 
     if (filter.location) {
-      sortedPeople = sortedPeople.filter(person => person.location === filter.location)
+      sortedPeople = sortedPeople.filter(person => person.location === filter.location);
     }
 
     if (filter.techStacks.length) {
       sortedPeople = sortedPeople.filter(person => {
-      let isExist = false
-      filter.techStacks.some(techStack => {
-        if (person.tech_stack.map(stack => stack.toUpperCase()).includes(techStack)) {
-          isExist = true
-          return true
-        }
-      })
-      return isExist
-    })
+        let isExist = false;
+        filter.techStacks.some(techStack => {
+          if (person.tech_stack.map(stack => stack.toUpperCase()).includes(techStack)) {
+            isExist = true;
+            return true;
+          }
+        });
+        return isExist;
+      });
     }
   }
 
   function handleLocationChange(e) {
-    const location = e.detail ? e.detail.value : null
-    filter.location = location
+    const location = e.detail ? e.detail.value : null;
+    filter.location = location;
 
-    filterPeople()
+    filterPeople();
   }
 
   function handleStackChange(e) {
-    const techStacks = e.detail ? e.detail.map(value => value.value) : []
-    filter.techStacks = techStacks
+    const techStacks = e.detail ? e.detail.map(value => value.value) : [];
+    filter.techStacks = techStacks;
 
-    filterPeople()
+    filterPeople();
   }
 
 
@@ -101,8 +101,8 @@
   }
 
   onMount(() => {
-    getSortedPeople()
-  })
+    getSortedPeople();
+  });
 </script>
 
 <style>
@@ -189,12 +189,12 @@
             </div>
           {/if}
 
-          {#if typeof p.social_media == 'string'}
+          {#if typeof p.social_media == "string"}
             <span>🔗</span>
             <a href={p.social_media} target="_blank">Linkedin</a>
           {/if}
 
-          {#if typeof p.social_media === 'object'}
+          {#if typeof p.social_media === "object"}
             {#each Object.keys(p.social_media).sort() as key}
               <span>🔗</span>
               <a href={p.social_media[key]} target="_blank">{key}</a>

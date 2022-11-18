@@ -38,13 +38,13 @@
   <div class="terminal-menu">
     <ul typeof="BreadcrumbList">
       <li>
-        <a aria-current={segment === 'about' ? 'page' : undefined} href="about">
+        <a aria-current={segment === "about" ? "page" : undefined} href="about">
           Tentang
         </a>
       </li>
       <li>
         <a
-          aria-current={segment === 'hiring' ? 'page' : undefined}
+          aria-current={segment === "hiring" ? "page" : undefined}
           href="hiring">
           Hiring?
         </a>
@@ -52,7 +52,7 @@
       {#if $theme !== null}
         <li>
           <span on:click={toggleTheme} class="button-switch-theme" class:dark>
-            {$theme === 'Dark' ? '🌜 ' + $theme : '🌞 ' + $theme}
+            {$theme === "Dark" ? "🌜 " + $theme : "🌞 " + $theme}
           </span>
         </li>
       {/if}
