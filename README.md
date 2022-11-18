@@ -9,7 +9,7 @@ Yang diperlukan (versi minimum): [Node.js](https://nodejs.org) versi 10.
 ```shell
 git clone https://github.com/rizafahmi/carikerja.git
 cd carikerja/
-npm install
+npm install --legacy-peer-deps
 npm run dev
 ```
 
