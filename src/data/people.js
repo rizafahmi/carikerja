@@ -1,16 +1,4 @@
 module.exports = [
-{
-    name: "Ibnu Nugroho",
-    status: "Fulltime, Remote",
-    role: "System Analysis, Technical Leader",
-    location: "Jakarta, Cirebon",
-    social_media: {
-      Linkedin: "https://www.linkedin.com/in/ibnunugroho",
-      Github: "https://github.com/1bnunugroho",
-    },
-    tech_stack: [".Net", ".NetCore", "Flutter", "C#", "PHP"],
-    hired: true,
-  },
   {
     name: "Nurizko Maulana",
     status: "Fulltime, Remote",
@@ -23,20 +11,6 @@ module.exports = [
     },
     tech_stack: ["NodeJS", "Flutter", "React", "Laravel", "PostgreSQL"],
     hired: false,
-  },
-  {
-    name: "Erwin Rahayu",
-    status: "Fulltime, Remote",
-    role: "Full Stack Developer, DevOps",
-    location: "Jakarta, Bekasi",
-    social_media: {
-      Linkedin: "https://www.linkedin.com/in/erwin-ra/",
-      Github: "https://github.com/artmxra7",
-      Twitter: "https://twitter.com/ErwinRA7",
-      Blog: "https://erwinrahayu.medium.com/",
-    },
-    tech_stack: ["React", "React Native", "Flutter", "NodeJS", "PHP", "AWS"],
-    hired: true,
   },
   {
     name: "Doddy Rizal Novianto",
@@ -75,18 +49,6 @@ module.exports = [
     hired: false,
   },
   {
-    name: "Lelianto Eko Pradana",
-    status: "Fulltime",
-    role: "Front End Web Developer",
-    location: "Jakarta",
-    social_media: {
-      Linkedin: "https://www.linkedin.com/in/lelianto1/",
-      Github: "https://github.com/Lelianto",
-    },
-    tech_stack: ["React.js", "Nuxt.js", "Python", "Flask", "Javascript"],
-    hired: true,
-  },
-  {
     name: "Ainul",
     status: "Fulltime",
     role: "Junior Mobile Developer",
@@ -97,24 +59,6 @@ module.exports = [
     },
     tech_stack: ["Kotlin"],
     hired: false,
-  },
-  {
-    name: "Budhi Priyatmojo",
-    status: "Fulltime",
-    role: "Senior Software Engineer",
-    location: "Jakarta",
-    social_media: "https://www.linkedin.com/in/budhi-priyatmojo-37ba1913b/",
-    tech_stack: ["golang", "nodejs", "php"],
-    hired: true,
-  },
-  {
-    name: "Mahbub Zulkarnain",
-    status: "Fulltime",
-    role: "Software Developer",
-    location: "Jakarta",
-    social_media: "https://www.linkedin.com/in/mahbubzulkarnain/",
-    tech_stack: ["react", "nodejs"],
-    hired: true,
   },
   {
     name: "Rikki Novar",
@@ -135,15 +79,6 @@ module.exports = [
     hired: false,
   },
   {
-    name: "Faris Luthfan Ramadhan",
-    status: "Fulltime",
-    role: "Software Developer",
-    location: "Jakarta",
-    social_media: "https://www.linkedin.com/in/farislr/",
-    tech_stack: ["nodejs", "typescript"],
-    hired: true,
-  },
-  {
     name: "Natascha Meysarach Lamsu",
     status: "Fulltime",
     role: "Front-end Developer",
@@ -160,24 +95,6 @@ module.exports = [
     social_media: "https://www.linkedin.com/in/hary-dewantoro-7bb00512a/",
     tech_stack: [],
     hired: false,
-  },
-  {
-    name: "Sayed Khaidir Ali",
-    status: "Fulltime",
-    role: "Software Engineer Backend",
-    location: "Jakarta",
-    social_media: "https://www.linkedin.com/in/sayed-khaidir-ali/",
-    tech_stack: ["nodejs", "typescript", "mysql", "mongodb"],
-    hired: true,
-  },
-  {
-    name: "Rian Akbar Ferdiansyah",
-    status: "Fulltime",
-    role: "Front-end Developer",
-    location: "Jakarta",
-    social_media: "https://www.linkedin.com/in/ryanakbar20/",
-    tech_stack: ["react", "react-native", "nodejs", "mongodb"],
-    hired: true,
   },
   {
     name: "Ari Rudiana",
@@ -205,46 +122,6 @@ module.exports = [
     social_media: "https://www.linkedin.com/in/muhrizqi/",
     tech_stack: ["Python", "Odoo", "PostgreSQL"],
     hired: false,
-  },
-  {
-    name: "Abdul Malik Ikhsan",
-    status: "Fulltime, Remote",
-    role: "PHP Developer, System Engineer",
-    location: "Bandung",
-    social_media: {
-      Linkedin: "https://www.linkedin.com/in/samsonasik/",
-      Github: "https://github.com/samsonasik",
-      Twitter: "https://twitter.com/samsonasik",
-      Blog: "https://samsonasik.wordpress.com/",
-    },
-    tech_stack: ["PHP", "Laminas", "Mezzio", "Laminas API Tools"],
-    hired: true,
-  },
-  {
-    name: "Bahyu Sanciko",
-    status: "Fulltime, Remote",
-    role: "Full Stack Developer",
-    location: "Jakarta",
-    social_media: {
-      Linkedin: "https://www.linkedin.com/in/bahyu-sanciko/",
-      Github: "https://github.com/bahyusanciko",
-      Blog: "https://bahyusanciko.github.io/",
-      Twitter: "https://twitter.com/bhysnck",
-    },
-    tech_stack: ["Laravel", "Codeigniter", "Angular", "Ionic"],
-    hired: true,
-  },
-  {
-    name: "Adzanny Akbar",
-    status: "Fulltime, Remote",
-    role: "Full Stack Developer",
-    location: "Jakarta",
-    social_media: {
-      Linkedin: "https://www.linkedin.com/in/adzannyaa/",
-      Github: "https://gitlab.com/zanisis",
-    },
-    tech_stack: ["React", "React Native", "Flutter", "NodeJS"],
-    hired: true,
   },
   {
     name: "Ilham Bintang",
@@ -323,32 +200,6 @@ module.exports = [
     hired: false,
   },
   {
-    name: 'Bahyu Sanciko',
-    status: 'Fulltime, Remote',
-    role: 'Full Stack Developer',
-    location: 'Jakarta',
-    social_media: {
-      Linkedin: 'https://www.linkedin.com/in/bahyu-sanciko/',
-      Github: 'https://github.com/bahyusanciko',
-      Blog: 'https://bahyusanciko.github.io/',
-      Twitter: 'https://twitter.com/bhysnck',
-    },
-    tech_stack: ['Laravel', 'Codeigniter', 'Angular', 'Ionic'],
-    hired: true
-  },
-  {
-    name: 'Adzanny Akbar',
-    status: 'Fulltime, Remote',
-    role: 'Full Stack Developer',
-    location: 'Jakarta',
-    social_media: {
-      Linkedin: 'https://www.linkedin.com/in/adzannyaa/',
-      Github: 'https://gitlab.com/zanisis'
-    },
-    tech_stack: ['React', 'React Native', 'Flutter', 'NodeJS'],
-    hired: true
-  },
-  {
     name: 'Ilham Bintang',
     status: 'Fulltime',
     role: 'Machine Learning Engineer',
@@ -397,19 +248,6 @@ module.exports = [
     },
     tech_stack: ['Python', 'JavaScript', 'Go', 'Terraform'],
     hired: false
-  },
-  {
-    name: 'Anton Purwanto',
-    status: 'Fulltime, Remote',
-    role: 'Java Developer, Software Engineer',
-    location: 'Tangerang Selatan',
-    social_media: {
-      Linkedin: 'https://www.linkedin.com/in/anton-purwanto-268a4050',
-      Github: 'https://github.com/anteknik',
-      AboutMe: 'https://about.me/antonpurwanto'
-    },
-    tech_stack: ['Java', 'Spring Framework', 'Liferay', 'JPA/hibernate', 'JSF/JSP'],
-    hired: true
   },
   {
     name: 'Panji Asmoro',
@@ -586,30 +424,6 @@ module.exports = [
     tech_stack: ["Go", "Redis", "NodeJS", "Typescript", "MongoDB", "GCP", "AWS", "Docker", "Kubernetes"],
     hired: false,
   },
-  {
-    name: "Muhammad Yandi Fenanda",
-    status: "Fulltime, Remote",
-    role: "Full Stack Developer",
-    location: "Bandung",
-    social_media: {
-      Linkedin: "https://www.linkedin.com/in/yandiio",
-      Github: "https://github.com/yandiio",
-    },
-    tech_stack: ["Flutter", "PHP", "Laravel", "Spring Boot", "Java", "PostgreSQL", "MySQL", "Kotlin Android"],
-    hired: true,
-  },
-  {
-    name: "Ashandi Leonadi",
-    status: "Fulltime, Remote",
-    role: "Frontend Engineer",
-    location: "Jakarta",
-    social_media: {
-      Linkedin: "https://www.linkedin.com/in/ashandi-leonadi-509374176/",
-      Github: "https://github.com/ashandileo",
-    },
-    tech_stack: ["React.js", "Next.js", "Javascript", "Typescript", "SASS", "Tailwindcss", "HTML5", "CSS3"],
-    hired: true,
-  },
     {
     name: "Andrian Fauzi",
     status: "Fulltime, Remote, Onsite",
@@ -621,17 +435,5 @@ module.exports = [
     },
     tech_stack: ["React.js", "Vue.js", "Nodejs", "Go", "Bootstrap", "PostgreSQL", "HTML5", "CSS3", "mongoDB"],
     hired: false,
-    },
-  {
-    name: "Andreas Bilmar Harteveld Girsang ",
-    status: "Fulltime, Remote",
-    role: "Junior Back End Engineer",
-    location: "Medan",
-    social_media: {
-      Linkedin: "https://www.linkedin.com/in/andreasbilmar//",
-      Github: "https://github.com/roddeuss",
-    },
-    tech_stack: ["NodeJS", "Javacript","ExpressJs", "C#", "Postgresql", "MySQL", "SQL Server"],
-    hired: true,
-  }
+    }
 ];
