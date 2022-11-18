@@ -334,7 +334,7 @@ module.exports = [
       Github: "https://github.com/fadhila36",
       Website: 'https://fadhilaabiyyu.my.id'
     },
-    tech_stack: ["Laravel", "Codeigniter", "React",, "Flutter", "WordPress"],
+    tech_stack: ["Laravel", "Codeigniter", "React", "Flutter", "WordPress"],
     hired: false,
   },
   {
