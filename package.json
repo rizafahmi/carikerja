@@ -1,6 +1,6 @@
 {
-  "name": "TODO",
-  "description": "TODO",
+  "name": "carikerja",
+  "description": "Menghubungkan para Software Engineer kece di tanah air yang terpaksa harus terkena pemutusan hubungan kerja karena pandemi COVID-19 dengan perusahaan yang sedang mencari talenta digital.",
   "version": "0.0.1",
   "scripts": {
     "dev": "sapper dev",
@@ -50,6 +50,10 @@
     }
   },
   "lint-staged": {
-    "*.js": ["npm run lint:fix", "npm run format", "git add"]
+    "*.js": [
+      "npm run lint:fix",
+      "npm run format",
+      "git add"
+    ]
   }
 }
