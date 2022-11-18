@@ -587,7 +587,7 @@ module.exports = [
     hired: false,
   },
   {
-    name : "Muhammad Yandi Fenanda",
+    name: "Muhammad Yandi Fenanda",
     status: "Fulltime, Remote",
     role: "Full Stack Developer",
     location: "Bandung",
