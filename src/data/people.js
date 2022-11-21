@@ -491,5 +491,19 @@ module.exports = [
       "mongoDB",
     ],
     hired: false,
+
+    },
+{
+  name: "Ibnu Raffi",
+  status: "Fulltime, Remote",
+  role: "Full Stack Developer",
+  location: "Sleman",
+  social_media: {
+    Linkedin: "https://www.linkedin.com/in/ibnu_raffi",
+    Github: "https://github.com/BnewVanZuarez/",
+    Website: "https://ibnuraffi.netlify.app/",
   },
+  tech_stack: ["PHP", "Bootstrap", "MySQL", "Java Android"],
+  hired: false,
+}
 ];
