@@ -200,117 +200,133 @@ module.exports = [
     hired: false,
   },
   {
-    name: 'Ilham Bintang',
-    status: 'Fulltime',
-    role: 'Machine Learning Engineer',
-    location: 'Jakarta',
+    name: "Ilham Bintang",
+    status: "Fulltime",
+    role: "Machine Learning Engineer",
+    location: "Jakarta",
     social_media: {
-      Linkedin: 'https://www.linkedin.com/in/nullphantom/',
-      Github: 'https://github.com/nullphantom',
-      Blog: 'https://abin.web.id/'
+      Linkedin: "https://www.linkedin.com/in/nullphantom/",
+      Github: "https://github.com/nullphantom",
+      Blog: "https://abin.web.id/",
     },
-    tech_stack: ['Tensorflow', 'Python', 'Elasticsearch'],
-    hired: false
+    tech_stack: ["Tensorflow", "Python", "Elasticsearch"],
+    hired: false,
   },
   {
-    name: 'Arian Saputra',
-    status: 'Fulltime, Remote',
-    role: 'Backend Developer',
-    location: 'Mataram',
+    name: "Arian Saputra",
+    status: "Fulltime, Remote",
+    role: "Backend Developer",
+    location: "Mataram",
     social_media: {
-      Linkedin: 'https://www.linkedin.com/in/rhyanz46/',
-      Github: 'https://github.com/Rhyanz46/',
-      Website: 'https://ariansaputra.com/'
+      Linkedin: "https://www.linkedin.com/in/rhyanz46/",
+      Github: "https://github.com/Rhyanz46/",
+      Website: "https://ariansaputra.com/",
     },
-    tech_stack: ['Flask', 'Fastapi', 'Mysql', 'Redis', 'Docker'],
-    hired: false
+    tech_stack: ["Flask", "Fastapi", "Mysql", "Redis", "Docker"],
+    hired: false,
   },
   {
-    name: 'Zainal Arifin',
-    status: 'Fulltime, Remote',
-    role: 'Software Developer',
-    location: 'Bandung',
+    name: "Zainal Arifin",
+    status: "Fulltime, Remote",
+    role: "Software Developer",
+    location: "Bandung",
     social_media: {
-      Linkedin: 'https://www.linkedin.com/in/zainalar/',
-      Github: 'https://github.com/zainalarifinid',
+      Linkedin: "https://www.linkedin.com/in/zainalar/",
+      Github: "https://github.com/zainalarifinid",
     },
-    tech_stack: ['JavaScript', 'TypeScript', 'NodeJS', 'PHP', 'VueJS'],
-    hired: false
+    tech_stack: ["JavaScript", "TypeScript", "NodeJS", "PHP", "VueJS"],
+    hired: false,
   },
   {
-    name: 'Hasobi Roid Radityo',
-    status: 'Fulltime, Remote',
-    role: 'DevOps Engineer, Software Engineer',
-    location: 'Surakarta',
+    name: "Hasobi Roid Radityo",
+    status: "Fulltime, Remote",
+    role: "DevOps Engineer, Software Engineer",
+    location: "Surakarta",
     social_media: {
-      Linkedin: 'https://www.linkedin.com/in/hasobi/',
-      Github: 'https://github.com/hasobi',
+      Linkedin: "https://www.linkedin.com/in/hasobi/",
+      Github: "https://github.com/hasobi",
     },
-    tech_stack: ['Python', 'JavaScript', 'Go', 'Terraform'],
-    hired: false
+    tech_stack: ["Python", "JavaScript", "Go", "Terraform"],
+    hired: false,
   },
   {
-    name: 'Panji Asmoro',
-    status: 'Fulltime',
-    role: 'Front End Developer',
-    location: 'Depok',
+    name: "Panji Asmoro",
+    status: "Fulltime",
+    role: "Front End Developer",
+    location: "Depok",
     social_media: {
-      Linkedin: 'https://www.linkedin.com/in/panjiasmoro/',
-      Github: 'https://github.com/panjiasmoroart'
+      Linkedin: "https://www.linkedin.com/in/panjiasmoro/",
+      Github: "https://github.com/panjiasmoroart",
     },
-    tech_stack: ['HTML5', 'CSS3', 'SASS', 'JavaScript', 'ReactJS', 'PHP', 'Ruby'],
-    hired: false
+    tech_stack: [
+      "HTML5",
+      "CSS3",
+      "SASS",
+      "JavaScript",
+      "ReactJS",
+      "PHP",
+      "Ruby",
+    ],
+    hired: false,
   },
   {
-    name: 'Panji Asmoro',
-    status: 'Fulltime',
-    role: 'Front End Developer',
-    location: 'Depok',
+    name: "Panji Asmoro",
+    status: "Fulltime",
+    role: "Front End Developer",
+    location: "Depok",
     social_media: {
-      Linkedin: 'https://www.linkedin.com/in/panjiasmoro/',
-      Github: 'https://github.com/panjiasmoroart'
+      Linkedin: "https://www.linkedin.com/in/panjiasmoro/",
+      Github: "https://github.com/panjiasmoroart",
     },
-    tech_stack: ['HTML5', 'CSS3', 'SASS', 'JavaScript', 'ReactJS', 'PHP', 'Ruby'],
-    hired: false
+    tech_stack: [
+      "HTML5",
+      "CSS3",
+      "SASS",
+      "JavaScript",
+      "ReactJS",
+      "PHP",
+      "Ruby",
+    ],
+    hired: false,
   },
   {
-    name: 'Imam Riyadi',
-    status: 'Fulltime, Remote',
-    role: 'Software Developer',
-    location: 'Jakarta',
+    name: "Imam Riyadi",
+    status: "Fulltime, Remote",
+    role: "Software Developer",
+    location: "Jakarta",
     social_media: {
-      Linkedin: 'https://linkedin.com/in/imam-riyadi',
-      Github: 'https://github.com/imamriyadi',
-      Website: 'https://imamriyadi.com'
+      Linkedin: "https://linkedin.com/in/imam-riyadi",
+      Github: "https://github.com/imamriyadi",
+      Website: "https://imamriyadi.com",
     },
-    tech_stack: ['JavaScript', 'SASS', 'Java Android ', 'PHP', 'C#'],
-    hired: false
+    tech_stack: ["JavaScript", "SASS", "Java Android ", "PHP", "C#"],
+    hired: false,
   },
   {
-    name: 'Bambang Mohammad Azhari',
-    status: 'Fulltime, Remote',
-    role: 'Software Developer',
-    location: 'Tasikmalaya',
+    name: "Bambang Mohammad Azhari",
+    status: "Fulltime, Remote",
+    role: "Software Developer",
+    location: "Tasikmalaya",
     social_media: {
-      Linkedin: 'https://www.linkedin.com/in/bambang-m-azhari-5280a5192/',
-      Github: 'https://github.com/illusi03',
-      Website: 'https://azhari.my.id'
+      Linkedin: "https://www.linkedin.com/in/bambang-m-azhari-5280a5192/",
+      Github: "https://github.com/illusi03",
+      Website: "https://azhari.my.id",
     },
-    tech_stack: ['Typescript', 'JavaScript', 'PHP', 'Laravel','React'],
-    hired: false
+    tech_stack: ["Typescript", "JavaScript", "PHP", "Laravel", "React"],
+    hired: false,
   },
   {
-    name: 'Muhammad Luthfi Azzammi',
-    status: 'Fulltime, Onsite',
-    role: 'Software Developer',
-    location: 'Bekasi',
+    name: "Muhammad Luthfi Azzammi",
+    status: "Fulltime, Onsite",
+    role: "Software Developer",
+    location: "Bekasi",
     social_media: {
-      Linkedin: 'https://www.linkedin.com/in/azzammi/',
-      Github: 'https://github.com/Azzammi',
-      Website: 'https://azzammi.wordpress.com'
+      Linkedin: "https://www.linkedin.com/in/azzammi/",
+      Github: "https://github.com/Azzammi",
+      Website: "https://azzammi.wordpress.com",
     },
-    tech_stack: ['JavaScript', 'PHP', 'Laravel','Vue','Tailwind'],
-    hired: false
+    tech_stack: ["JavaScript", "PHP", "Laravel", "Vue", "Tailwind"],
+    hired: false,
   },
   {
     name: "Imam Mufiid",
@@ -319,12 +335,12 @@ module.exports = [
     location: "Jakarta, Bandung, Surabaya",
     social_media: {
       Linkedin: "https://www.linkedin.com/in/imammufiid/",
-      Github: "https://github.com/imufiid"
+      Github: "https://github.com/imufiid",
     },
     tech_stack: ["Kotlin"],
     hired: false,
   },
-   {
+  {
     name: "Muhammad Fadhila Abiyyu Faris",
     status: "Fulltime, Internship, Remote",
     role: "Full Stack Developer",
@@ -332,9 +348,9 @@ module.exports = [
     social_media: {
       Linkedin: "https://www.linkedin.com/in/muhammad-fadhila/",
       Github: "https://github.com/fadhila36",
-      Website: 'https://fadhilaabiyyu.my.id'
+      Website: "https://fadhilaabiyyu.my.id",
     },
-    tech_stack: ["Laravel", "Codeigniter", "React",, "Flutter", "WordPress"],
+    tech_stack: ["Laravel", "Codeigniter", "React", "Flutter", "WordPress"],
     hired: false,
   },
   {
@@ -345,7 +361,7 @@ module.exports = [
     social_media: {
       Linkedin: "https://www.linkedin.com/in/andri-desmana/",
       Github: "https://github.com/andes2912",
-      Website: 'https://andridesmana.pw'
+      Website: "https://andridesmana.pw",
     },
     tech_stack: ["Laravel"],
     hired: false,
@@ -358,7 +374,7 @@ module.exports = [
     social_media: {
       Linkedin: "https://www.linkedin.com/in/andrianfaa/",
       Github: "https://github.com/andrianfaa",
-      Website: 'https://www.andriann.co'
+      Website: "https://www.andriann.co",
     },
     tech_stack: ["ReactJS", "Express", "NodeJS", "MongoDB", "Typescript"],
   },
@@ -387,16 +403,27 @@ module.exports = [
     hired: false,
   },
   {
-    name: 'Wahyu Rahmana',
-    status: 'Fulltime, Remote',
-    role: 'Backend Developer',
-    location: 'Sumbawa',
+    name: "Wahyu Rahmana",
+    status: "Fulltime, Remote",
+    role: "Backend Developer",
+    location: "Sumbawa",
     social_media: {
-      Linkedin: 'https://www.linkedin.com/in/wahyu-rahmana/',
-      Github: 'https://github.com/wahyurahmana',
-      Website: 'http://www.indolearning.co.id/'
+      Linkedin: "https://www.linkedin.com/in/wahyu-rahmana/",
+      Github: "https://github.com/wahyurahmana",
+      Website: "http://www.indolearning.co.id/",
     },
-    tech_stack: ['ExpressJs', 'Nodejs', 'Postgresql', 'Redis', 'Vuejs', 'Reactjs', 'MongoDB', 'Hapi Framework', 'AWS Cloud', 'Sequelize'],
+    tech_stack: [
+      "ExpressJs",
+      "Nodejs",
+      "Postgresql",
+      "Redis",
+      "Vuejs",
+      "Reactjs",
+      "MongoDB",
+      "Hapi Framework",
+      "AWS Cloud",
+      "Sequelize",
+    ],
     hired: false,
   },
   {
@@ -409,7 +436,16 @@ module.exports = [
       Github: "https://github.com/kangnikol",
       Website: "https://kangnikol.xyz",
     },
-    tech_stack: ["PHP", "Laravel", "React", "Next.JS", "Tailwindcss", "SASS", "HTML5", "CSS3"],
+    tech_stack: [
+      "PHP",
+      "Laravel",
+      "React",
+      "Next.JS",
+      "Tailwindcss",
+      "SASS",
+      "HTML5",
+      "CSS3",
+    ],
     hired: false,
   },
   {
@@ -421,10 +457,20 @@ module.exports = [
       Linkedin: "https://www.linkedin.com/in/ryawcksn",
       Github: "https://github.com/RyaWcksn",
     },
-    tech_stack: ["Go", "Redis", "NodeJS", "Typescript", "MongoDB", "GCP", "AWS", "Docker", "Kubernetes"],
+    tech_stack: [
+      "Go",
+      "Redis",
+      "NodeJS",
+      "Typescript",
+      "MongoDB",
+      "GCP",
+      "AWS",
+      "Docker",
+      "Kubernetes",
+    ],
     hired: false,
   },
-    {
+  {
     name: "Andrian Fauzi",
     status: "Fulltime, Remote, Onsite",
     role: "Full Stack Developer",
@@ -433,8 +479,19 @@ module.exports = [
       Linkedin: "https://www.linkedin.com/in/andrian-fauzi/",
       Github: "https://github.com/AndrianFauzi",
     },
-    tech_stack: ["React.js", "Vue.js", "Nodejs", "Go", "Bootstrap", "PostgreSQL", "HTML5", "CSS3", "mongoDB"],
+    tech_stack: [
+      "React.js",
+      "Vue.js",
+      "Nodejs",
+      "Go",
+      "Bootstrap",
+      "PostgreSQL",
+      "HTML5",
+      "CSS3",
+      "mongoDB",
+    ],
     hired: false,
+
     },
 {
   name: "Ibnu Raffi",
