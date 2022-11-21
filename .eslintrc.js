@@ -4,9 +4,9 @@ module.exports = {
     es6: true,
     node: true
   },
-  plugins: ["svelte3"],
+  plugins: ["svelte3", "prettier"],
   overrides: [{files: ["*.svelte"], processor: "svelte3/svelte3"}],
-  extends: ["eslint:recommended"],
+  extends: ["eslint:recommended", "prettier"],
   parserOptions: {
     ecmaVersion: 2018,
     sourceType: "module"
@@ -14,7 +14,7 @@ module.exports = {
   rules: {
     indent: ["error", 2],
     "linebreak-style": ["error", "unix"],
-    quotes: ["error", "single"],
+    quotes: ["error", "double"],
     semi: ["error", "always"]
   }
 };
