@@ -493,17 +493,30 @@ module.exports = [
     hired: false,
 
     },
-{
-  name: "Ibnu Raffi",
-  status: "Fulltime, Remote",
-  role: "Full Stack Developer",
-  location: "Sleman",
-  social_media: {
-    Linkedin: "https://www.linkedin.com/in/ibnu_raffi",
-    Github: "https://github.com/BnewVanZuarez/",
-    Website: "https://ibnuraffi.netlify.app/",
+  {
+    name: "Ibnu Raffi",
+    status: "Fulltime, Remote",
+    role: "Full Stack Developer",
+    location: "Sleman",
+    social_media: {
+      Linkedin: "https://www.linkedin.com/in/ibnu_raffi",
+      Github: "https://github.com/BnewVanZuarez/",
+      Website: "https://ibnuraffi.netlify.app/",
+    },
+    tech_stack: ["PHP", "Bootstrap", "MySQL", "Java Android"],
+    hired: false,
   },
-  tech_stack: ["PHP", "Bootstrap", "MySQL", "Java Android"],
-  hired: false,
-}
+  {
+    name: "Muhammad Fadhila Abiyyu Faris",
+    status: "Fulltime, Internship, Remote",
+    role: "Full Stack Developer",
+    location: "Karawang",
+    social_media: {
+      Linkedin: "https://www.linkedin.com/in/muhammad-fadhila/",
+      Github: "https://github.com/fadhila36",
+      Website: 'https://fadhilaabiyyu.my.id'
+    },
+    tech_stack: ["Laravel", "Codeigniter", "React", , "Flutter", "WordPress", "adonisJS", 'NodeJs'],
+    hired: false,
+  },
 ];
