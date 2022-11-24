@@ -519,4 +519,16 @@ module.exports = [
     tech_stack: ["Laravel", "Codeigniter", "React", , "Flutter", "WordPress", "adonisJS", 'NodeJs'],
     hired: false,
   },
+  {
+    name: "Randy Maulana",
+    status: "Fulltime, Remote",
+    role: "Software Engineer",
+    location: "Jakarta, Indonesia",
+    social_media: {
+      Linkedin: "https://www.linkedin.com/in/randi-maulana-akbar",
+      Github: "https://github.com/reporandi"
+    },
+    tech_stack: ["Flutter", "MERN"],
+    hired: true
+  },
 ];
