@@ -1,4 +1,5 @@
-module.exports = [
+/** @type {Person[]} */
+export default [
   {
     name: "Nurizko Maulana",
     status: "Fulltime, Remote",
@@ -491,8 +492,7 @@ module.exports = [
       "mongoDB",
     ],
     hired: false,
-
-    },
+  },
   {
     name: "Ibnu Raffi",
     status: "Fulltime, Remote",
@@ -514,9 +514,17 @@ module.exports = [
     social_media: {
       Linkedin: "https://www.linkedin.com/in/muhammad-fadhila/",
       Github: "https://github.com/fadhila36",
-      Website: 'https://fadhilaabiyyu.my.id'
+      Website: "https://fadhilaabiyyu.my.id",
     },
-    tech_stack: ["Laravel", "Codeigniter", "React", , "Flutter", "WordPress", "adonisJS", 'NodeJs'],
+    tech_stack: [
+      "Laravel",
+      "Codeigniter",
+      "React",
+      "Flutter",
+      "WordPress",
+      "adonisJS",
+      "NodeJs",
+    ],
     hired: false,
   },
   {
@@ -526,9 +534,9 @@ module.exports = [
     location: "Jakarta, Indonesia",
     social_media: {
       Linkedin: "https://www.linkedin.com/in/randi-maulana-akbar",
-      Github: "https://github.com/reporandi"
+      Github: "https://github.com/reporandi",
     },
     tech_stack: ["Flutter", "MERN"],
-    hired: true
+    hired: true,
   },
 ];

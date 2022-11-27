@@ -1,5 +1,8 @@
 import {writable} from "svelte/store";
 
+/**
+ * @type {import("svelte/store").Writable<string | null>}
+ */
 export let theme;
 
 if (typeof window !== "undefined") {
