@@ -1,7 +1,8 @@
 <script>
-  export let segment;
+  import {page} from "$app/stores";
+  import {theme} from "$src/stores/theme.js";
 
-  import { theme } from "../stores/theme.js";
+  $: segment = $page.url.pathname;
   $: dark = $theme === "Dark";
 
   function toggleTheme() {
@@ -12,22 +13,6 @@
     localStorage.setItem("theme", newTheme);
   }
 </script>
-
-<style>
-  .button-switch-theme {
-    padding: 0.25em;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-    border-radius: 1em;
-    display: inline-block;
-    background: #eee;
-    cursor: pointer;
-  }
-  .dark {
-    background: #162a44;
-    color: #fff;
-  }
-</style>
 
 <nav class="terminal-nav">
   <header class="terminal-logo">
@@ -45,17 +30,35 @@
       <li>
         <a
           aria-current={segment === "hiring" ? "page" : undefined}
-          href="hiring">
+          href="hiring"
+        >
           Hiring?
         </a>
       </li>
       {#if $theme !== null}
         <li>
-          <span on:click={toggleTheme} class="button-switch-theme" class:dark>
+          <button on:click={toggleTheme} class="button-switch-theme" class:dark>
             {$theme === "Dark" ? "🌜 " + $theme : "🌞 " + $theme}
-          </span>
+          </button>
         </li>
       {/if}
     </ul>
   </div>
 </nav>
+
+<style>
+  .button-switch-theme {
+    padding: 0.25em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    border-width: 0;
+    border-radius: 1em;
+    display: inline-block;
+    background: #eee;
+    cursor: pointer;
+  }
+  .dark {
+    background: #162a44;
+    color: #fff;
+  }
+</style>

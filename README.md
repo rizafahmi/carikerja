@@ -9,11 +9,11 @@ Yang diperlukan (versi minimum): [Node.js](https://nodejs.org) versi 10.
 ```shell
 git clone https://github.com/rizafahmi/carikerja.git
 cd carikerja/
-npm install --legacy-peer-deps
+npm install
 npm run dev
 ```
 
-lalu buka alamat `localhost:3000`.
+lalu buka alamat `localhost:5173`.
 
 Untuk menambahkan data developer silakan ubah file `src/data/people.js`. Data social media dapat dibuat multi dengan mengupdate menjadi bentuk object, seperti contoh:
 
@@ -30,5 +30,5 @@ dan untuk menambahkan data perusahaan yang masih melakukan hiring silakan ubah f
 
 Dukung terus pengembangan aplikasi ini dengan donasi via:
 
-* [Karyakarsa](https://karyakarsa.com/rizafahmi/rewards)
-* [GoKreator](https://gokreator.com/rizafahmi/tiers/)
+- [Karyakarsa](https://karyakarsa.com/rizafahmi/rewards)
+- [GoKreator](https://gokreator.com/rizafahmi/tiers/)
