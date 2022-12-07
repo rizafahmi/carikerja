@@ -20,7 +20,7 @@
 dan tambahkan data baru di <code>src/data/people.js</code>. Bisa juga edit
 langsung melalui
 <a
-  href="https://github.com/rizafahmi/carikerja/edit/master/src/data/people.js"
+  href="https://github.com/rizafahmi/carikerja/edit/main/src/data/people.js"
   target="_blank"
   rel="noreferrer"
 >
@@ -39,7 +39,7 @@ langsung melalui
 dan tambahkan data baru di <code>src/data/employer.js</code>. Bisa juga edit
 langsung melalui
 <a
-  href="https://github.com/rizafahmi/carikerja/edit/master/src/data/employer.js"
+  href="https://github.com/rizafahmi/carikerja/edit/main/src/data/employer.js"
   target="_blank"
   rel="noreferrer"
 >
