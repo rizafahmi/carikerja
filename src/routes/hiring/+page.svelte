@@ -54,7 +54,7 @@
   <code>src/data/employer.js</code>
   . Bisa juga edit langsung via
   <a
-    href="https://github.com/rizafahmi/carikerja/edit/master/src/data/employer.js"
+    href="https://github.com/rizafahmi/carikerja/edit/main/src/data/employer.js"
     target="_blank"
     rel="noreferrer"
   >
