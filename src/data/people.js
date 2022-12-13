@@ -539,4 +539,16 @@ export default [
     tech_stack: ["Flutter", "MERN"],
     hired: true,
   },
+  {
+    name: "Alfan Fauzy",
+    status: "Fulltime, Remote",
+    role: "Frontend Engineer",
+    location: "Malang - Jakarta, Indonesia",
+    social_media: {
+      Linkedin: "https://www.linkedin.com/in/alfan-fauzy",
+      Github: "https://github.com/alfanfauzy",
+    },
+    tech_stack: ["ReactJs", "Typescript"],
+    hired: true,
+  },
 ];
