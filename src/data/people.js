@@ -559,6 +559,7 @@ export default [
     social_media: {
       Linkedin: "https://www.linkedin.com/in/abdmmar",
       Github: "https://github.com/abdmmar",
+      Website: "https://www.abdmmar.com"
     },
     tech_stack: [
       "React", 
