@@ -25,4 +25,3 @@ Untuk menambahkan data developer silakan ubah file `src/data/people.js`. Data so
 ```
 
 dan untuk menambahkan data perusahaan yang masih melakukan hiring silakan ubah file `src/data/employer.js`.
-
