@@ -154,6 +154,7 @@
       on:select={handleStackChange}
       items={getAllTechStack}
       isMulti={true}
+      id="inputTechStack"
     />
   </div>
   <div>
@@ -162,6 +163,7 @@
       on:select={handleLocationChange}
       on:clear={handleLocationChange}
       items={getAllLocation}
+      id="inputLocation"
     />
   </div>
 </div>
@@ -172,7 +174,7 @@
       <ul>
         <li>⏲️ {p.status}</li>
         <li>💻 {p.role}</li>
-        <li>📍 {p.location}</li>
+        <li id="listLocation">📍 {p.location}</li>
         {#if p.tech_stack.length != 0}
           <li>
             ⚙️
