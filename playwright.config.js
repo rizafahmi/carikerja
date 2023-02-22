@@ -5,6 +5,10 @@ const config = {
     port: 4173,
   },
   testDir: "tests",
+  reporter: "html",
+  use: {
+    trace: "retain-on-failure",
+  },
 };
 
 export default config;
