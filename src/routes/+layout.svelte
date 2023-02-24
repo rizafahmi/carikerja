@@ -9,11 +9,11 @@
   <Nav />
   <slot />
   <hr />
-  Dipersembahkan oleh <a
-    href="https://deeptech.id"
-    target="_blank"
-    rel="noreferrer">DeepTech Foundation</a
-  >. Kode sumber tersedia di <a
+  Dipersembahkan oleh
+  <a href="https://deeptech.id" target="_blank" rel="noreferrer"
+    >DeepTech Foundation</a
+  >. Kode sumber tersedia di
+  <a
     href="https://github.com/rizafahmi/carikerja"
     target="_blank"
     rel="noreferrer">GitHub</a
