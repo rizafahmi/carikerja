@@ -1,7 +1,7 @@
 /** @type {Person[]} */
 export default [
   {
-    name: "M ABD AZIZ ALFIAN",
+    name: "M Abd Aziz Alfian",
     status: "Remote",
     role: "FullStack Developer",
     location: "Jakarta",
